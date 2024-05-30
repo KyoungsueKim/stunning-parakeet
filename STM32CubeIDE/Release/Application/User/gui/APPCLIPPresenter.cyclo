@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/appclip_screen/APPCLIPPresenter.hpp:28:13:APPCLIPPresenter::~APPCLIPPresenter()	1
+C:/TouchGFXProjects/JCD/TouchGFX/gui/src/appclip_screen/APPCLIPPresenter.cpp:10:6:virtual void APPCLIPPresenter::activate()	1
+../../TouchGFX/gui/include/gui/appclip_screen/APPCLIPPresenter.hpp:28:13:virtual APPCLIPPresenter::~APPCLIPPresenter()	1
+../../TouchGFX/gui/include/gui/appclip_screen/APPCLIPPresenter.hpp:28:13:virtual void* APPCLIPPresenter::_ZThn4_N16APPCLIPPresenterD1Ev()	1
+C:/TouchGFXProjects/JCD/TouchGFX/gui/src/appclip_screen/APPCLIPPresenter.cpp:4:1:APPCLIPPresenter::APPCLIPPresenter(APPCLIPView&)	1
