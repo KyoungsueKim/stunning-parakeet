@@ -1,5 +1,5 @@
 Middlewares/LwIP/mld6.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/core/ipv6/mld6.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LwIP/src/core/ipv6/mld6.c \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../../LWIP/Target/lwipopts.h ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \

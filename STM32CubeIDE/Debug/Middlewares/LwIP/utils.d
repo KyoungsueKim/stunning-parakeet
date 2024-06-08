@@ -1,5 +1,5 @@
 Middlewares/LwIP/utils.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/netif/ppp/utils.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LwIP/src/netif/ppp/utils.c \
  ../../Middlewares/Third_Party/LwIP/src/include/netif/ppp/ppp_opts.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../../LWIP/Target/lwipopts.h ../../Core/Inc/main.h \

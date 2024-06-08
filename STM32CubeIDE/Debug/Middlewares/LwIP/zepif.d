@@ -1,5 +1,5 @@
 Middlewares/LwIP/zepif.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/netif/zepif.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LwIP/src/netif/zepif.c \
  ../../Middlewares/Third_Party/LwIP/src/include/netif/zepif.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../../LWIP/Target/lwipopts.h ../../Core/Inc/main.h \

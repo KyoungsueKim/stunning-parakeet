@@ -1,5 +1,5 @@
 Middlewares/LwIP/sys_arch.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/system/OS/sys_arch.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LwIP/system/OS/sys_arch.c \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/debug.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/arch.h \
  ../../Middlewares/Third_Party/LwIP/system/arch/cc.h \

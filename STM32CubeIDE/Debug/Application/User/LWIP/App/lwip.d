@@ -1,5 +1,6 @@
-Application/User/LWIP/App/lwip.o: C:/TouchGFXProjects/JCD/LWIP/App/lwip.c \
- C:/TouchGFXProjects/JCD/LWIP/App/lwip.h \
+Application/User/LWIP/App/lwip.o: \
+ C:/TouchGFXProjects/stunning-parakeet/LWIP/App/lwip.c \
+ C:/TouchGFXProjects/stunning-parakeet/LWIP/App/lwip.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../../LWIP/Target/lwipopts.h ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
@@ -91,7 +92,7 @@ Application/User/LWIP/App/lwip.o: C:/TouchGFXProjects/JCD/LWIP/App/lwip.c \
  ../../LWIP/Target/ethernetif.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/tcpip.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/init.h
-C:/TouchGFXProjects/JCD/LWIP/App/lwip.h:
+C:/TouchGFXProjects/stunning-parakeet/LWIP/App/lwip.h:
 ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h:
 ../../LWIP/Target/lwipopts.h:
 ../../Core/Inc/main.h:

@@ -1,5 +1,5 @@
 Application/User/gui/APPCLIPView.o: \
- C:/TouchGFXProjects/JCD/TouchGFX/gui/src/appclip_screen/APPCLIPView.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/appclip_screen/APPCLIPView.cpp \
  ../../TouchGFX/gui/include/gui/appclip_screen/APPCLIPView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/appclip_screen/APPCLIPViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

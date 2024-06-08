@@ -20,8 +20,8 @@
 ../../TouchGFX/gui/include/gui/common/FrontendHeap.hpp:6:7:FrontendHeap::~FrontendHeap()	8	static
 ../../TouchGFX/gui/include/gui/common/FrontendHeap.hpp:56:29:void __tcf_0()	8	static
 ../../TouchGFX/gui/include/gui/common/FrontendHeap.hpp:6:7:virtual FrontendHeap::~FrontendHeap()	8	static
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/TouchGFXConfiguration.cpp:42:6:void touchgfx_init()	32	static
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/TouchGFXConfiguration.cpp:64:6:void touchgfx_components_init()	0	static
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/TouchGFXConfiguration.cpp:68:6:void touchgfx_taskEntry()	0	static
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/TouchGFXConfiguration.cpp:77:1:cpp)	16	static
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/TouchGFXConfiguration.cpp:77:1:cpp)	0	static
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXConfiguration.cpp:42:6:void touchgfx_init()	32	static
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXConfiguration.cpp:64:6:void touchgfx_components_init()	0	static
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXConfiguration.cpp:68:6:void touchgfx_taskEntry()	0	static
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXConfiguration.cpp:77:1:cpp)	16	static
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXConfiguration.cpp:77:1:cpp)	0	static

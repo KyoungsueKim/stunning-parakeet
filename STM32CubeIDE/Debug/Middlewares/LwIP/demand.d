@@ -1,5 +1,5 @@
 Middlewares/LwIP/demand.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/netif/ppp/demand.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LwIP/src/netif/ppp/demand.c \
  ../../Middlewares/Third_Party/LwIP/src/include/netif/ppp/ppp_opts.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../../LWIP/Target/lwipopts.h ../../Core/Inc/main.h \

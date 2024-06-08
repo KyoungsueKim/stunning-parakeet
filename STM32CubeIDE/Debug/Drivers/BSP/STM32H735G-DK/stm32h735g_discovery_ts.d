@@ -1,6 +1,6 @@
 Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.o: \
- C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c \
- C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.h \
+ C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c \
+ C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.h \
  ../../Core/Inc/stm32h735g_discovery_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -42,13 +42,13 @@ Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_errno.h \
- C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/../Components/ft5336/ft5336.h \
- C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/../Components/ft5336/ft5336_reg.h \
+ C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_errno.h \
+ C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/../Components/ft5336/ft5336.h \
+ C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/../Components/ft5336/ft5336_reg.h \
  ../../Core/Inc/ft5336_conf.h \
- C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/../Components/Common/ts.h \
- C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.h
-C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.h:
+ C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/../Components/Common/ts.h \
+ C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.h
+C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.h:
 ../../Core/Inc/stm32h735g_discovery_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -90,9 +90,9 @@ C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_errno.h:
-C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/../Components/ft5336/ft5336.h:
-C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/../Components/ft5336/ft5336_reg.h:
+C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_errno.h:
+C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/../Components/ft5336/ft5336.h:
+C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/../Components/ft5336/ft5336_reg.h:
 ../../Core/Inc/ft5336_conf.h:
-C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/../Components/Common/ts.h:
-C:/TouchGFXProjects/JCD/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.h:
+C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/../Components/Common/ts.h:
+C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.h:

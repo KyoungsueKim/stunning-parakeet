@@ -1,3 +1,3 @@
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_timebase_tim.c:42:19:HAL_InitTick	4
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_timebase_tim.c:115:6:HAL_SuspendTick	1
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_timebase_tim.c:127:6:HAL_ResumeTick	1
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_timebase_tim.c:42:19:HAL_InitTick	4
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_timebase_tim.c:115:6:HAL_SuspendTick	1
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_timebase_tim.c:127:6:HAL_ResumeTick	1

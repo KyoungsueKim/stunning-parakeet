@@ -1,5 +1,6 @@
 Application/User/LWIP/Target/ethernetif.o: \
- C:/TouchGFXProjects/JCD/LWIP/Target/ethernetif.c ../../Core/Inc/main.h \
+ C:/TouchGFXProjects/stunning-parakeet/LWIP/Target/ethernetif.c \
+ ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -83,7 +84,7 @@ Application/User/LWIP/Target/ethernetif.o: \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip4.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/prot/etharp.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/ethip6.h \
- C:/TouchGFXProjects/JCD/LWIP/Target/ethernetif.h \
+ C:/TouchGFXProjects/stunning-parakeet/LWIP/Target/ethernetif.h \
  ../../Drivers/BSP/Components/lan8742/lan8742.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/tcpip.h
 ../../Core/Inc/main.h:
@@ -170,6 +171,6 @@ Application/User/LWIP/Target/ethernetif.o: \
 ../../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip4.h:
 ../../Middlewares/Third_Party/LwIP/src/include/lwip/prot/etharp.h:
 ../../Middlewares/Third_Party/LwIP/src/include/lwip/ethip6.h:
-C:/TouchGFXProjects/JCD/LWIP/Target/ethernetif.h:
+C:/TouchGFXProjects/stunning-parakeet/LWIP/Target/ethernetif.h:
 ../../Drivers/BSP/Components/lan8742/lan8742.h:
 ../../Middlewares/Third_Party/LwIP/src/include/lwip/tcpip.h:

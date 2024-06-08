@@ -1,6 +1,6 @@
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:412:1:prepare_for_output_pass	13
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:472:1:finish_output_pass	2
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:45:1:use_merged_upsample	18
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:88:1:jpeg_calc_output_dimensions	14
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:489:1:jpeg_new_colormap	5
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:517:1:jinit_master_decompress	21
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:412:1:prepare_for_output_pass	13
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:472:1:finish_output_pass	2
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:45:1:use_merged_upsample	18
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:88:1:jpeg_calc_output_dimensions	14
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:489:1:jpeg_new_colormap	5
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmaster.c:517:1:jinit_master_decompress	21

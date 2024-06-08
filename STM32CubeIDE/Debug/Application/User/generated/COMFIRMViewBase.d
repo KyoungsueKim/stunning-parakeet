@@ -1,5 +1,5 @@
 Application/User/generated/COMFIRMViewBase.o: \
- C:/TouchGFXProjects/JCD/TouchGFX/generated/gui_generated/src/comfirm_screen/COMFIRMViewBase.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/comfirm_screen/COMFIRMViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/comfirm_screen/COMFIRMViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

@@ -1,5 +1,5 @@
 Middlewares/LwIP/ethernet.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/netif/ethernet.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LwIP/src/netif/ethernet.c \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../../LWIP/Target/lwipopts.h ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \

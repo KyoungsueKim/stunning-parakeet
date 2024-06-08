@@ -1,6 +1,6 @@
 Drivers/BSP/Components/mx25lm51245g.o: \
- C:/TouchGFXProjects/JCD/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c \
- C:/TouchGFXProjects/JCD/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.h \
+ C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c \
+ C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.h \
  ../../Core/Inc/mx25lm51245g_conf.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h735xx.h \
@@ -42,7 +42,7 @@ Drivers/BSP/Components/mx25lm51245g.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-C:/TouchGFXProjects/JCD/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.h:
+C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.h:
 ../../Core/Inc/mx25lm51245g_conf.h:
 ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h735xx.h:

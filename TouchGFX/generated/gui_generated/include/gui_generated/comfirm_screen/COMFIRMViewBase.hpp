@@ -19,6 +19,14 @@ public:
     virtual ~COMFIRMViewBase();
     virtual void setupScreen();
 
+    /*
+     * Virtual Action Handlers
+     */
+    virtual void callBusBell()
+    {
+        // Override and implement this function in COMFIRM
+    }
+
 protected:
     FrontendApplication& application() {
         return *static_cast<FrontendApplication*>(touchgfx::Application::getInstance());

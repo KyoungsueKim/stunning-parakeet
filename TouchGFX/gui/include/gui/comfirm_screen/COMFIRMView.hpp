@@ -11,6 +11,7 @@ public:
     virtual ~COMFIRMView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void callBusBell();
 protected:
 };
 

@@ -1,5 +1,5 @@
 Middlewares/LwIP/bridgeif.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/netif/bridgeif.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LwIP/src/netif/bridgeif.c \
  ../../Middlewares/Third_Party/LwIP/src/include/netif/bridgeif.h \
  ../../Middlewares/Third_Party/LwIP/src/include/netif/bridgeif_opts.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \

@@ -592,6 +592,17 @@
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "HOME"
             }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "finalRQ"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "callBusBell"
+            }
           }
         ]
       },

@@ -1,5 +1,5 @@
 Application/User/gui/COMFIRMView.o: \
- C:/TouchGFXProjects/JCD/TouchGFX/gui/src/comfirm_screen/COMFIRMView.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/comfirm_screen/COMFIRMView.cpp \
  ../../TouchGFX/gui/include/gui/comfirm_screen/COMFIRMView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/comfirm_screen/COMFIRMViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

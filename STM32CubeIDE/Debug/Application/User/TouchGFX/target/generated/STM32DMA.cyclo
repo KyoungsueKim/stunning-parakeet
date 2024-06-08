@@ -1,20 +1,20 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:138:18:virtual void touchgfx::DMA_Interface::flush()	1
 ../../TouchGFX/target/generated/STM32DMA.hpp:71:31:virtual touchgfx::DMAType STM32DMA::getDMAType()	1
 ../../TouchGFX/target/generated/STM32DMA.hpp:107:18:virtual void STM32DMA::signalDMAInterrupt()	1
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:141:16:virtual touchgfx::BlitOperations STM32DMA::getBlitCaps()	1
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:53:1:STM32DMA::~STM32DMA()	1
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:53:1:virtual STM32DMA::~STM32DMA()	1
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:59:6:virtual void STM32DMA::initialize()	1
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:108:17:uint32_t STM32DMA::getChromARTOutputFormat(touchgfx::Bitmap::BitmapFormat)	3
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:331:6:virtual void STM32DMA::setupDataFill(const touchgfx::BlitOp&)	2
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:73:17:uint32_t STM32DMA::getChromARTInputFormat(touchgfx::Bitmap::BitmapFormat)	4
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:164:6:virtual void STM32DMA::setupDataCopy(const touchgfx::BlitOp&)	12
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:41:17:void DMA2D_XferCpltCallback(DMA2D_HandleTypeDef*)	1
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:48:1:STM32DMA::STM32DMA()	2
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:399:6:void touchgfx::paint::setL8Palette(const uint8_t*)	1
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:410:6:void touchgfx::paint::tearDown()	2
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:427:6:void touchgfx::paint::rgb888::lineFromColor(uint8_t*, unsigned int, uint32_t, uint8_t)	3
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:477:6:void touchgfx::paint::rgb888::lineFromRGB888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	3
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:521:6:void touchgfx::paint::rgb888::lineFromARGB8888(uint8_t*, const uint32_t*, unsigned int, uint8_t)	2
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:553:6:void touchgfx::paint::rgb888::lineFromL8RGB888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	5
-C:/TouchGFXProjects/JCD/TouchGFX/target/generated/STM32DMA.cpp:618:6:void touchgfx::paint::rgb888::lineFromL8ARGB8888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	4
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:141:16:virtual touchgfx::BlitOperations STM32DMA::getBlitCaps()	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:53:1:STM32DMA::~STM32DMA()	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:53:1:virtual STM32DMA::~STM32DMA()	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:59:6:virtual void STM32DMA::initialize()	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:108:17:uint32_t STM32DMA::getChromARTOutputFormat(touchgfx::Bitmap::BitmapFormat)	3
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:331:6:virtual void STM32DMA::setupDataFill(const touchgfx::BlitOp&)	2
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:73:17:uint32_t STM32DMA::getChromARTInputFormat(touchgfx::Bitmap::BitmapFormat)	4
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:164:6:virtual void STM32DMA::setupDataCopy(const touchgfx::BlitOp&)	12
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:41:17:void DMA2D_XferCpltCallback(DMA2D_HandleTypeDef*)	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:48:1:STM32DMA::STM32DMA()	2
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:399:6:void touchgfx::paint::setL8Palette(const uint8_t*)	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:410:6:void touchgfx::paint::tearDown()	2
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:427:6:void touchgfx::paint::rgb888::lineFromColor(uint8_t*, unsigned int, uint32_t, uint8_t)	3
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:477:6:void touchgfx::paint::rgb888::lineFromRGB888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	3
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:521:6:void touchgfx::paint::rgb888::lineFromARGB8888(uint8_t*, const uint32_t*, unsigned int, uint8_t)	2
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:553:6:void touchgfx::paint::rgb888::lineFromL8RGB888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	5
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp:618:6:void touchgfx::paint::rgb888::lineFromL8ARGB8888(uint8_t*, const uint8_t*, unsigned int, uint8_t)	4

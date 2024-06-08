@@ -1,5 +1,5 @@
 Middlewares/LwIP/slipif.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/netif/slipif.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LwIP/src/netif/slipif.c \
  ../../Middlewares/Third_Party/LwIP/src/include/netif/slipif.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../../LWIP/Target/lwipopts.h ../../Core/Inc/main.h \

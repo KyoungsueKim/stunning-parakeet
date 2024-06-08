@@ -1,5 +1,5 @@
 Application/User/generated/HOMEViewBase.o: \
- C:/TouchGFXProjects/JCD/TouchGFX/generated/gui_generated/src/home_screen/HOMEViewBase.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/home_screen/HOMEViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HOMEViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

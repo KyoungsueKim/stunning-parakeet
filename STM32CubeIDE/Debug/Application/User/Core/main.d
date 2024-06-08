@@ -1,4 +1,5 @@
-Application/User/Core/main.o: C:/TouchGFXProjects/JCD/Core/Src/main.c \
+Application/User/Core/main.o: \
+ C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \

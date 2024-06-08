@@ -1,5 +1,5 @@
 Application/User/generated/APPCLIPViewBase.o: \
- C:/TouchGFXProjects/JCD/TouchGFX/generated/gui_generated/src/appclip_screen/APPCLIPViewBase.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/appclip_screen/APPCLIPViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/appclip_screen/APPCLIPViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

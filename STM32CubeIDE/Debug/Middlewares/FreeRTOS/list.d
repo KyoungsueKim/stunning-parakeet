@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/list.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/FreeRTOS/Source/list.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/list.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

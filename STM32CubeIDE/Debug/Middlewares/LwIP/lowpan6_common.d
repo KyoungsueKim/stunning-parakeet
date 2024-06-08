@@ -1,5 +1,5 @@
 Middlewares/LwIP/lowpan6_common.o: \
- C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/netif/lowpan6_common.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LwIP/src/netif/lowpan6_common.c \
  ../../Middlewares/Third_Party/LwIP/src/include/netif/lowpan6_common.h \
  ../../Middlewares/Third_Party/LwIP/src/include/netif/lowpan6_opts.h \
  ../../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
