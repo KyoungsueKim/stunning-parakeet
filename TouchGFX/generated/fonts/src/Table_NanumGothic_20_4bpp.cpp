@@ -5,12 +5,8 @@
 FONT_TABLE_LOCATION_FLASH_PRAGMA
 KEEP extern const touchgfx::GlyphNode glyphs_NanumGothic_20_4bpp[] FONT_TABLE_LOCATION_FLASH_ATTRIBUTE = {
     {     0, 0x003F,   8,  15,  14,   2,  11,   0,   0, 0x00 },
-    {     0, 0xAC00,  18,  19,  17,   1,  19,   0,   0, 0x00 },
-    {   171, 0xAE30,  16,  19,  17,   1,  19,   0,   0, 0x00 },
     {     0, 0xB124,  15,  19,  17,   2,  19,   0,   0, 0x00 },
     {   152, 0xB2C8,  15,  19,  17,   2,  19,   0,   0, 0x00 },
-    {   304, 0xB4A4,  16,  19,  17,   1,  19,   0,   0, 0x00 },
-    {     0, 0xB85C,  19,  15,  15,   0,  19,   0,   0, 0x00 },
     {     0, 0xC544,  18,  19,  17,   1,  19,   0,   0, 0x00 },
     {   171, 0xC694,  19,  15,  15,   0,  19,   0,   0, 0x00 }
 };
@@ -21,11 +17,7 @@ KEEP extern const touchgfx::GlyphNode glyphs_NanumGothic_20_4bpp[] FONT_TABLE_LO
 FONT_GLYPH_LOCATION_FLASH_PRAGMA
 KEEP extern const uint8_t unicodes_NanumGothic_20_4bpp_0[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
 FONT_GLYPH_LOCATION_FLASH_PRAGMA
-KEEP extern const uint8_t unicodes_NanumGothic_20_4bpp_21[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
-FONT_GLYPH_LOCATION_FLASH_PRAGMA
 KEEP extern const uint8_t unicodes_NanumGothic_20_4bpp_22[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
-FONT_GLYPH_LOCATION_FLASH_PRAGMA
-KEEP extern const uint8_t unicodes_NanumGothic_20_4bpp_23[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
 FONT_GLYPH_LOCATION_FLASH_PRAGMA
 KEEP extern const uint8_t unicodes_NanumGothic_20_4bpp_24[] FONT_GLYPH_LOCATION_FLASH_ATTRIBUTE;
 FONT_SEARCHTABLE_LOCATION_FLASH_PRAGMA
@@ -51,9 +43,9 @@ KEEP extern const uint8_t* const unicodes_NanumGothic_20_4bpp[] FONT_SEARCHTABLE
     0,
     0,
     0,
-    unicodes_NanumGothic_20_4bpp_21,
+    0,
     unicodes_NanumGothic_20_4bpp_22,
-    unicodes_NanumGothic_20_4bpp_23,
+    0,
     unicodes_NanumGothic_20_4bpp_24
 };
 FONT_KERNING_LOCATION_FLASH_PRAGMA
@@ -62,6 +54,6 @@ touchgfx::GeneratedFont& getFont_NanumGothic_20_4bpp();
 
 touchgfx::GeneratedFont& getFont_NanumGothic_20_4bpp()
 {
-    static touchgfx::GeneratedFont NanumGothic_20_4bpp(glyphs_NanumGothic_20_4bpp, 9, 22, 20, 0, 0, 4, 1, 0, 0, unicodes_NanumGothic_20_4bpp, kerning_NanumGothic_20_4bpp, 63, 0, 0, 0);
+    static touchgfx::GeneratedFont NanumGothic_20_4bpp(glyphs_NanumGothic_20_4bpp, 5, 22, 20, 0, 0, 4, 1, 0, 0, unicodes_NanumGothic_20_4bpp, kerning_NanumGothic_20_4bpp, 63, 0, 0, 0);
     return NanumGothic_20_4bpp;
 }

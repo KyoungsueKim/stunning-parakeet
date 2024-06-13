@@ -13,7 +13,6 @@
 #include <touchgfx/containers/Container.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
-#include <touchgfx/containers/buttons/Buttons.hpp>
 
 class HOMEViewBase : public touchgfx::View<HOMEPresenter>
 {
@@ -61,7 +60,6 @@ protected:
     touchgfx::ButtonWithLabel requestBell_1_1_1;
     touchgfx::ScalableImage BUSicon_1_1;
     touchgfx::ScalableImage scalableImage1;
-    touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger >  aboutAPPCLIP;
 
     /*
      * Wildcard Buffers
@@ -75,13 +73,11 @@ private:
      * Callback Declarations
      */
     touchgfx::Callback<HOMEViewBase, const touchgfx::AbstractButton&> buttonCallback;
-    touchgfx::Callback<HOMEViewBase, const touchgfx::AbstractButtonContainer&> flexButtonCallback;
 
     /*
      * Callback Handler Declarations
      */
     void buttonCallbackHandler(const touchgfx::AbstractButton& src);
-    void flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer& src);
 
 };
 

@@ -16,8 +16,6 @@
 #include <gui/home_screen/HOMEPresenter.hpp>
 #include <gui/comfirm_screen/COMFIRMView.hpp>
 #include <gui/comfirm_screen/COMFIRMPresenter.hpp>
-#include <gui/appclip_screen/APPCLIPView.hpp>
-#include <gui/appclip_screen/APPCLIPPresenter.hpp>
 
 
 /**
@@ -42,8 +40,7 @@ public:
      */
     typedef touchgfx::meta::TypeList< HOMEView,
             touchgfx::meta::TypeList< COMFIRMView,
-            touchgfx::meta::TypeList< APPCLIPView,
-            touchgfx::meta::Nil > >
+            touchgfx::meta::Nil >
             > GeneratedViewTypes;
 
     /**
@@ -57,8 +54,7 @@ public:
      */
     typedef touchgfx::meta::TypeList< HOMEPresenter,
             touchgfx::meta::TypeList< COMFIRMPresenter,
-            touchgfx::meta::TypeList< APPCLIPPresenter,
-            touchgfx::meta::Nil > >
+            touchgfx::meta::Nil >
             > GeneratedPresenterTypes;
 
     /**

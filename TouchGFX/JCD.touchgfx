@@ -412,44 +412,6 @@
             "Height": 181,
             "Filename": "appClip.png",
             "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "FlexButton",
-            "Name": "aboutAPPCLIP",
-            "X": 22,
-            "Y": 72,
-            "Width": 140,
-            "Height": 181,
-            "Alpha": 0,
-            "ButtonTrigger": {
-              "Type": "ClickButtonTrigger"
-            },
-            "ButtonStyles": [
-              {
-                "Type": "BoxWithBorderButtonStyle",
-                "Width": 140,
-                "Height": 181,
-                "LockToFlexButtonSize": true,
-                "BorderSize": 5,
-                "ColorReleased": {
-                  "Green": 102,
-                  "Blue": 153
-                },
-                "ColorPressed": {
-                  "Green": 153,
-                  "Blue": 204
-                },
-                "ColorBorderReleased": {
-                  "Green": 51,
-                  "Blue": 102
-                },
-                "ColorBorderPressed": {
-                  "Red": 51,
-                  "Green": 102,
-                  "Blue": 153
-                }
-              }
-            ]
           }
         ],
         "Interactions": [
@@ -462,25 +424,13 @@
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "COMFIRM"
-            }
-          },
-          {
-            "InteractionName": "Interaction2",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "aboutAPPCLIP"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "APPCLIP"
+              "ActionComponent": "CONFIRM"
             }
           }
         ]
       },
       {
-        "Name": "COMFIRM",
+        "Name": "CONFIRM",
         "Components": [
           {
             "Type": "Box",
@@ -602,65 +552,6 @@
             "Action": {
               "Type": "ActionCustom",
               "FunctionName": "callBusBell"
-            }
-          }
-        ]
-      },
-      {
-        "Name": "APPCLIP",
-        "Components": [
-          {
-            "Type": "Box",
-            "Name": "BG",
-            "Width": 480,
-            "Height": 272,
-            "LockPosition": true,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            }
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "back",
-            "X": 351,
-            "Y": 209,
-            "Width": 100,
-            "Height": 36,
-            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_normal.png",
-            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_inactive.png",
-            "TextId": "__SingleUse_4P5O",
-            "PressedColor": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "TextRotation": "0"
-          },
-          {
-            "Type": "TextArea",
-            "Name": "textArea1",
-            "X": 37,
-            "Y": 32,
-            "Width": 243,
-            "Height": 16,
-            "TextId": "__SingleUse_33F0",
-            "TextRotation": "0",
-            "AutoSize": true
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "Interaction1",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "back"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "HOME"
             }
           }
         ]

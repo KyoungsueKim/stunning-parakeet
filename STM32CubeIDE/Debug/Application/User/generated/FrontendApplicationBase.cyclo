@@ -18,12 +18,9 @@
 ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:16:13:virtual FrontendApplicationBase::~FrontendApplicationBase()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:89:18:virtual void touchgfx::Transition::invalidate()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:59:18:virtual void touchgfx::MVPApplication::handlePendingScreenTransition()	3
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:56:6:void FrontendApplicationBase::gotoCOMFIRMScreenNoTransitionImpl()	7
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:43:6:void FrontendApplicationBase::gotoHOMEScreenNoTransitionImpl()	7
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:268:17:static touchgfx::LCD& touchgfx::HAL::lcd()	3
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:21:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:39:6:void FrontendApplicationBase::gotoHOMEScreenNoTransition()	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:52:6:void FrontendApplicationBase::gotoCOMFIRMScreenNoTransition()	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:65:6:void FrontendApplicationBase::gotoAPPCLIPScreenNoTransition()	1
-../../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp:135:8:T& touchgfx::AbstractPartition::at(uint16_t) [with T = touchgfx::NoTransition]	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:71:6:void FrontendApplicationBase::gotoAPPCLIPScreenNoTransitionImpl()	7
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:58:6:void FrontendApplicationBase::gotoCOMFIRMScreenNoTransitionImpl()	7
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:45:6:void FrontendApplicationBase::gotoHOMEScreenNoTransitionImpl()	7
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:19:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:37:6:void FrontendApplicationBase::gotoHOMEScreenNoTransition()	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:50:6:void FrontendApplicationBase::gotoCOMFIRMScreenNoTransition()	1

@@ -196,18 +196,6 @@
     <Filter Include="Header Files\generated\simulator\include\simulator\video">
       <UniqueIdentifier>ADD5981C-D4CD-35D3-6A08-9537C679E7D2</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\appclip_screen">
-      <UniqueIdentifier>E6AC7D67-FE4E-0144-F0A4-0EDA57133FD4</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\appclip_screen">
-      <UniqueIdentifier>21ECE405-36E0-D5FE-B69D-2EAE296DF82B</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\generated\gui_generated\appclip_screen">
-      <UniqueIdentifier>A4A3C9FA-B8B0-50E3-8129-BAB83C5ACE8E</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\generated\gui_generated\appclip_screen">
-      <UniqueIdentifier>F26E58DC-3B57-3CCA-76B6-BBCBFD7CEC1B</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDL2TouchController.cpp">
@@ -257,15 +245,6 @@
     </ClCompile>
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp">
       <Filter>Source Files\generated\simulator\video</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\appclip_screen\APPCLIPPresenter.cpp">
-      <Filter>Source Files\gui\appclip_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\appclip_screen\APPCLIPView.cpp">
-      <Filter>Source Files\gui\appclip_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\appclip_screen\APPCLIPViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\appclip_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -726,15 +705,6 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\appclip_screen\APPCLIPPresenter.hpp">
-      <Filter>Header Files\gui\appclip_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\appclip_screen\APPCLIPView.hpp">
-      <Filter>Header Files\gui\appclip_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\appclip_screen\APPCLIPViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\appclip_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

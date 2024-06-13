@@ -13,8 +13,6 @@
 #include <gui/home_screen/HOMEPresenter.hpp>
 #include <gui/comfirm_screen/COMFIRMView.hpp>
 #include <gui/comfirm_screen/COMFIRMPresenter.hpp>
-#include <gui/appclip_screen/APPCLIPView.hpp>
-#include <gui/appclip_screen/APPCLIPPresenter.hpp>
 
 using namespace touchgfx;
 
@@ -58,17 +56,4 @@ void FrontendApplicationBase::gotoCOMFIRMScreenNoTransition()
 void FrontendApplicationBase::gotoCOMFIRMScreenNoTransitionImpl()
 {
     touchgfx::makeTransition<COMFIRMView, COMFIRMPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
-}
-
-// APPCLIP
-
-void FrontendApplicationBase::gotoAPPCLIPScreenNoTransition()
-{
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoAPPCLIPScreenNoTransitionImpl);
-    pendingScreenTransitionCallback = &transitionCallback;
-}
-
-void FrontendApplicationBase::gotoAPPCLIPScreenNoTransitionImpl()
-{
-    touchgfx::makeTransition<APPCLIPView, APPCLIPPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }

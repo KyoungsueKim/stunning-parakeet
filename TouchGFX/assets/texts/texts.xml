@@ -36,12 +36,6 @@
       <Text Id="__SingleUse_KYS5" Alignment="Center" TypographyId="Small">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
-      <Text Id="__SingleUse_33F0" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">아이폰 카메라로 앱클립을 스캔해 보세요!</Translation>
-      </Text>
-      <Text Id="__SingleUse_4P5O" Alignment="Center" TypographyId="Typography">
-        <Translation Language="GB">뒤로가기</Translation>
-      </Text>
       <Text Id="__SingleUse_C94H" Alignment="Center" TypographyId="Typography">
         <Translation Language="GB">아니요</Translation>
       </Text>

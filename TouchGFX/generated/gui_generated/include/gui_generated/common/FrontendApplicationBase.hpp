@@ -26,9 +26,6 @@ public:
     // COMFIRM
     void gotoCOMFIRMScreenNoTransition();
 
-    // APPCLIP
-    void gotoAPPCLIPScreenNoTransition();
-
 protected:
     touchgfx::Callback<FrontendApplicationBase> transitionCallback;
     FrontendHeap& frontendHeap;
@@ -39,9 +36,6 @@ protected:
 
     // COMFIRM
     void gotoCOMFIRMScreenNoTransitionImpl();
-
-    // APPCLIP
-    void gotoAPPCLIPScreenNoTransitionImpl();
 };
 
 #endif // FRONTENDAPPLICATIONBASE_HPP

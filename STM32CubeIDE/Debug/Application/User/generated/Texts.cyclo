@@ -15,6 +15,6 @@ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:22:
 C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:31:32:touchgfx::Unicode::UnicodeChar touchgfx::TextProvider::getNextLigature(touchgfx::TextDirection)	5
 C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:45:6:void touchgfx::TextProvider::initializeInternal()	1
 C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:50:6:)	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:99:6:static void touchgfx::Texts::setLanguage(touchgfx::LanguageId)	4
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:129:6:static void touchgfx::Texts::setTranslation(touchgfx::LanguageId, const void*)	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:134:39:const touchgfx::Unicode::UnicodeChar* touchgfx::Texts::getText(touchgfx::TypedTextId) const	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:97:6:static void touchgfx::Texts::setLanguage(touchgfx::LanguageId)	4
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:127:6:static void touchgfx::Texts::setTranslation(touchgfx::LanguageId, const void*)	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:132:39:const touchgfx::Unicode::UnicodeChar* touchgfx::Texts::getText(touchgfx::TypedTextId) const	1

@@ -7,8 +7,7 @@
 #include <images/BitmapDatabase.hpp>
 
 HOMEViewBase::HOMEViewBase() :
-    buttonCallback(this, &HOMEViewBase::buttonCallbackHandler),
-    flexButtonCallback(this, &HOMEViewBase::flexButtonCallbackHandler)
+    buttonCallback(this, &HOMEViewBase::buttonCallbackHandler)
 {
     __background.setPosition(0, 0, 480, 272);
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
@@ -199,14 +198,6 @@ HOMEViewBase::HOMEViewBase() :
     scalableImage1.setPosition(22, 72, 140, 181);
     scalableImage1.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
     add(scalableImage1);
-
-    aboutAPPCLIP.setBoxWithBorderPosition(0, 0, 140, 181);
-    aboutAPPCLIP.setBorderSize(5);
-    aboutAPPCLIP.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
-    aboutAPPCLIP.setAlpha(0);
-    aboutAPPCLIP.setAction(flexButtonCallback);
-    aboutAPPCLIP.setPosition(22, 72, 140, 181);
-    add(aboutAPPCLIP);
 }
 
 HOMEViewBase::~HOMEViewBase()
@@ -227,16 +218,5 @@ void HOMEViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
         //When requestBell_1 clicked change screen to COMFIRM
         //Go to COMFIRM with no screen transition
         application().gotoCOMFIRMScreenNoTransition();
-    }
-}
-
-void HOMEViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer& src)
-{
-    if (&src == &aboutAPPCLIP)
-    {
-        //Interaction2
-        //When aboutAPPCLIP clicked change screen to APPCLIP
-        //Go to APPCLIP with no screen transition
-        application().gotoAPPCLIPScreenNoTransition();
     }
 }

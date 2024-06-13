@@ -7,5 +7,5 @@ C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c:182:6:HAL_LTD
 C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c:329:6:HAL_LTDC_MspDeInit	8	static
 C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c:402:6:HAL_OSPI_MspInit	96	static
 C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c:550:6:HAL_OSPI_MspDeInit	8	static
-C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c:636:6:HAL_UART_MspInit	224	static
-C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c:683:6:HAL_UART_MspDeInit	0	static
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c:636:6:HAL_UART_MspInit	240	static
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c:760:6:HAL_UART_MspDeInit	8	static

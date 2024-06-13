@@ -72,6 +72,10 @@ void Error_Handler(void);
 #define VSYNC_FREQ_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
+#define T_VCP_RX_Pin GPIO_PIN_9
+#define T_VCP_RX_GPIO_Port GPIOD
+#define T_VCP_TX_Pin GPIO_PIN_8
+#define T_VCP_TX_GPIO_Port GPIOD
 
 /* USER CODE END Private defines */
 

@@ -999,16 +999,6 @@
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/APPCLIPPresenter.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/appclip_screen/APPCLIPPresenter.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/gui/APPCLIPView.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/appclip_screen/APPCLIPView.cpp</locationURI>
-		</link>
-		<link>
 			<name>Application/User/gui/COMFIRMPresenter.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/comfirm_screen/COMFIRMPresenter.cpp</locationURI>
@@ -1059,31 +1049,6 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_14_4bpp_0.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/Font_NanumGothic_14_4bpp_22.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_14_4bpp_22.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/Font_NanumGothic_14_4bpp_23.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_14_4bpp_23.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/Font_NanumGothic_14_4bpp_24.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_14_4bpp_24.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/Font_NanumGothic_14_4bpp_25.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_14_4bpp_25.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/Font_NanumGothic_14_4bpp_26.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_14_4bpp_26.cpp</locationURI>
-		</link>
-		<link>
 			<name>Application/User/generated/Font_NanumGothic_15_4bpp_0.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_15_4bpp_0.cpp</locationURI>
@@ -1119,19 +1084,9 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_20_4bpp_0.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/Font_NanumGothic_20_4bpp_21.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_20_4bpp_21.cpp</locationURI>
-		</link>
-		<link>
 			<name>Application/User/generated/Font_NanumGothic_20_4bpp_22.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_20_4bpp_22.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/Font_NanumGothic_20_4bpp_23.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_NanumGothic_20_4bpp_23.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/Font_NanumGothic_20_4bpp_24.cpp</name>
@@ -1227,11 +1182,6 @@
 			<name>Application/User/generated/VectorFontRendererBuffers.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/VectorFontRendererBuffers.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/APPCLIPViewBase.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/appclip_screen/APPCLIPViewBase.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/COMFIRMViewBase.cpp</name>

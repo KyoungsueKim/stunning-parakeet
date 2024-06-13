@@ -23,6 +23,7 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:127:18:virtual void touchgfx::TextArea::setXBaselineY(int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:403:41:virtual const touchgfx::Unicode::UnicodeChar* touchgfx::TextArea::getWildcard2() const	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:84:41:virtual const touchgfx::Unicode::UnicodeChar* touchgfx::TextAreaWithOneWildcard::getWildcard1() const	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/comfirm_screen/COMFIRMViewBase.hpp:25:18:virtual void COMFIRMViewBase::callBusBell()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<COMFIRMPresenter>::~View()	1
 C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/comfirm_screen/COMFIRMViewBase.cpp:59:1:COMFIRMViewBase::~COMFIRMViewBase()	1
 C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/comfirm_screen/COMFIRMViewBase.cpp:64:6:virtual void COMFIRMViewBase::setupScreen()	1
