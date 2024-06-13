@@ -9,6 +9,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Middlewares/LwIP/subdir.mk
 -include Middlewares/LibJPEG/subdir.mk
 -include Middlewares/FreeRTOS/subdir.mk
 -include Drivers/STM32H7xx_HAL_Driver/subdir.mk
@@ -21,6 +22,8 @@ RM := rm -rf
 -include Application/User/TouchGFX/target/subdir.mk
 -include Application/User/TouchGFX/App/subdir.mk
 -include Application/User/Startup/subdir.mk
+-include Application/User/LWIP/Target/subdir.mk
+-include Application/User/LWIP/App/subdir.mk
 -include Application/User/LIBJPEG/App/subdir.mk
 -include Application/User/Core/subdir.mk
 -include objects.mk

@@ -456,27 +456,27 @@
 		<link>
 			<name>Application/User/Core/freertos.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Core/Src/freertos.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/freertos.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/Core/main.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Core/Src/main.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/main.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/Core/stm32h7xx_hal_msp.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Core/Src/stm32h7xx_hal_msp.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/stm32h7xx_hal_msp.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/Core/stm32h7xx_hal_timebase_tim.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Core/Src/stm32h7xx_hal_timebase_tim.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/stm32h7xx_hal_timebase_tim.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/Core/stm32h7xx_it.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Core/Src/stm32h7xx_it.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/stm32h7xx_it.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/ApplicationFontProvider.cpp</name>
