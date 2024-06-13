@@ -71,11 +71,28 @@ void Error_Handler(void);
 #define VSYNC_FREQ_Pin GPIO_PIN_0
 #define VSYNC_FREQ_GPIO_Port GPIOA
 
+
 /* USER CODE BEGIN Private defines */
 #define T_VCP_RX_Pin GPIO_PIN_9
 #define T_VCP_RX_GPIO_Port GPIOD
 #define T_VCP_TX_Pin GPIO_PIN_8
 #define T_VCP_TX_GPIO_Port GPIOD
+
+#define ARD_D0_Pin GPIO_PIN_15
+#define ARD_D0_GPIO_Port GPIOB
+#define ARD_D1_Pin GPIO_PIN_14
+#define ARD_D1_GPIO_Port GPIOB
+
+#define Detectn_Pin GPIO_PIN_1
+#define Detectn_GPIO_Port GPIOD
+#define ARD_D7_Pin GPIO_PIN_5
+#define ARD_D7_GPIO_Port GPIOG
+#define MEMS_LED_Pin GPIO_PIN_8
+#define MEMS_LED_GPIO_Port GPIOG
+#define ARD_D4_Pin GPIO_PIN_4
+#define ARD_D4_GPIO_Port GPIOG
+#define ARD_A0_Pin GPIO_PIN_0
+#define ARD_A0_GPIO_Port GPIOC
 
 /* USER CODE END Private defines */
 
