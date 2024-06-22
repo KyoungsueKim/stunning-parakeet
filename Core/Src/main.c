@@ -25,6 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <string.h>
 #include "stm32h735g_discovery_ospi.h"
 #include "stm32h7xx_hal_ospi.h"
 /* USER CODE END Includes */
@@ -36,6 +37,9 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+
+#define RX_BUFFER_SIZE 512
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -56,6 +60,7 @@ OSPI_HandleTypeDef hospi2;
 
 UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart3;
+DMA_HandleTypeDef hdma_usart1_rx;
 
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -80,6 +85,12 @@ const osThreadAttr_t videoTask_attributes = {
 };
 /* USER CODE BEGIN PV */
 
+static uint8_t rxBuffer[RX_BUFFER_SIZE];
+osMessageQueueId_t busInfoQueueHandle;
+const osMessageQueueAttr_t busInfoQueue_attributes = {
+        .name = "busInfoQueue"
+};
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -87,23 +98,79 @@ void SystemClock_Config(void);
 void PeriphCommonClock_Config(void);
 static void MPU_Config(void);
 static void MX_GPIO_Init(void);
-static void MX_CRC_Init(void);
-static void MX_DMA2D_Init(void);
+static void MX_DMA_Init(void);
 static void MX_LTDC_Init(void);
 static void MX_OCTOSPI1_Init(void);
 static void MX_OCTOSPI2_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_USART3_UART_Init(void);
+static void MX_CRC_Init(void);
+static void MX_DMA2D_Init(void);
 void StartDefaultTask(void *argument);
 extern void TouchGFX_Task(void *argument);
 extern void videoTaskFunc(void *argument);
 
 /* USER CODE BEGIN PFP */
-
+void parseData(uint8_t* data, uint16_t len);
+void MX_DMA_Init(void);
+void HAL_UART_IDLECallback(UART_HandleTypeDef *huart);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+/**
+ * @brief
+ * @param huart
+ */
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    HAL_UART_Transmit(&huart1, (uint8_t *) "HAL_UART_RxCpltCallback called.\n", 34, HAL_MAX_DELAY);
+    if (huart->Instance == USART1)
+    {
+        // ?��?��?�� ?��?��?���? ?��?��
+        parseData(rxBuffer, RX_BUFFER_SIZE);
+
+        // ?��?�� UART DMA ?��?�� ?��?��
+        HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_BUFFER_SIZE);
+    }
+}
+
+/**
+ * @brief Parse bus information from UART1
+ * @param data: bus information data (char*)
+ * @param len: data length (uint16_t)
+ */
+void parseData(uint8_t* data, uint16_t len)
+{
+    char* token;
+    char* rest = (char*)data;
+    BusInfo busInfo;
+
+    while ((token = strtok_r(rest, "\n", &rest)))
+    {
+        sscanf(token, "%[^,],%hhu,%[^,],%[^,],%hhu",
+               busInfo.routeName,
+               &busInfo.predictTimeSec1,
+               busInfo.routeId,
+               busInfo.vehId1,
+               &busInfo.remainSeatCnt1);
+
+        // ?��?�� 버스 ?���? ???��
+        osMessageQueuePut(busInfoQueueHandle, &busInfo, 0, 0);
+    }
+}
+
+void HAL_UART_IDLECallback(UART_HandleTypeDef *huart)
+{
+    if (huart->Instance == USART1)
+    {
+        // IDLE 라인 인터럽트 발생 시 DMA를 중지하고 수신 완료 처리
+        HAL_UART_DMAStop(huart);
+        parseData(rxBuffer, RX_BUFFER_SIZE);
+        HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_BUFFER_SIZE);
+    }
+}
 
 /* USER CODE END 0 */
 
@@ -150,14 +217,15 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_CRC_Init();
-  MX_DMA2D_Init();
+  MX_DMA_Init();
   MX_LTDC_Init();
   MX_OCTOSPI1_Init();
   MX_OCTOSPI2_Init();
   MX_LIBJPEG_Init();
   MX_USART1_UART_Init();
   MX_USART3_UART_Init();
+  MX_CRC_Init();
+  MX_DMA2D_Init();
   MX_TouchGFX_Init();
   /* Call PreOsInit function */
   MX_TouchGFX_PreOSInit();
@@ -182,6 +250,7 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
+  busInfoQueueHandle = osMessageQueueNew(30, sizeof(BusInfo), &busInfoQueue_attributes);
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
@@ -200,6 +269,8 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
+  // UART DMA ?��?�� ?��?��
+  HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_BUFFER_SIZE);
   /* USER CODE END RTOS_EVENTS */
 
   /* Start scheduler */
@@ -612,6 +683,9 @@ static void MX_USART1_UART_Init(void)
   }
   /* USER CODE BEGIN USART1_Init 2 */
 
+  HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_BUFFER_SIZE);
+  __HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE);
+
   /* USER CODE END USART1_Init 2 */
 
 }
@@ -662,6 +736,37 @@ static void MX_USART3_UART_Init(void)
 
   /* USER CODE END USART3_Init 2 */
 
+}
+
+/**
+  * Enable DMA controller clock
+  */
+static void MX_DMA_Init(void)
+{
+    __HAL_RCC_DMA1_CLK_ENABLE();
+
+    hdma_usart1_rx.Instance = DMA1_Stream0;
+    hdma_usart1_rx.Init.Request = DMA_REQUEST_USART1_RX;
+    hdma_usart1_rx.Init.Direction = DMA_PERIPH_TO_MEMORY;
+    hdma_usart1_rx.Init.PeriphInc = DMA_PINC_DISABLE;
+    hdma_usart1_rx.Init.MemInc = DMA_MINC_ENABLE;
+    hdma_usart1_rx.Init.PeriphDataAlignment = DMA_PDATAALIGN_BYTE;
+    hdma_usart1_rx.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
+    hdma_usart1_rx.Init.Mode = DMA_NORMAL;
+    hdma_usart1_rx.Init.Priority = DMA_PRIORITY_LOW;
+    hdma_usart1_rx.Init.FIFOMode = DMA_FIFOMODE_DISABLE;
+
+    if (HAL_DMA_Init(&hdma_usart1_rx) != HAL_OK)
+    {
+        Error_Handler();
+    }
+
+    __HAL_LINKDMA(&huart1, hdmarx, hdma_usart1_rx);
+
+    // DMA interrupt init
+    // DMA1_Stream0_IRQn interrupt configuration
+    HAL_NVIC_SetPriority(DMA1_Stream0_IRQn, 5, 0);
+    HAL_NVIC_EnableIRQ(DMA1_Stream0_IRQn);
 }
 
 /**

@@ -28,6 +28,8 @@ public:
 
     virtual ~MainPresenter() {};
 
+    virtual void fetchBusInfo();
+
     void sendCallBusRequest(const CustomListElement& element);
 
 private:

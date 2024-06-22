@@ -19,6 +19,8 @@ public:
 
     virtual ~ModelListener() {}
 
+    virtual void fetchBusInfo() = 0; // 메서드 선언 추가
+
     /**
      * Sets the model pointer to point to the Model object. Called automatically
      * when switching screen.

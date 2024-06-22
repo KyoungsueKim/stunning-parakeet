@@ -1,5 +1,5 @@
 Application/User/gui/CustomListElement.o: \
- C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/containers/CustomListElement.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/containers/CustomListElement.cpp \
  ../../TouchGFX/gui/include/gui/containers/CustomListElement.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/containers/CustomListElementBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

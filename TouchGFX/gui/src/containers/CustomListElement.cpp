@@ -6,20 +6,32 @@ CustomListElement::CustomListElement() : viewCallback(0)
     
 }
 
-void CustomListElement::setupListElement(const Bitmap &iconBMP, TEXTS busLineTextID, TEXTS busArrivingTextID)
+void CustomListElement::setupListElement(const Bitmap &iconBMP, Unicode::UnicodeChar* busLineText, Unicode::UnicodeChar* busArrivingText)
 {
     busCharacterScaleableImage.setBitmap(iconBMP);
     busCharacterScaleableImage.setWidth(45);
     busCharacterScaleableImage.setHeight(36);
     busCharacterScaleableImage.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
 
-    busArrivingTextArea.setTypedText(busArrivingTextID);
+    busArrivingTextArea.setTypedText(T_BUS_LINE_NUM);
+    busArrivingTextArea.setWildcard(busArrivingText);
     busArrivingTextArea.resizeToCurrentText();
 
-    busLineNumberTextArea.setTypedText(busLineTextID);
+    busLineNumberTextArea.setTypedText(T_BUS_ARRIVING);
+    busLineNumberTextArea.setWildcard(busLineText);
     busLineNumberTextArea.resizeToCurrentText();
 
     invalidate();
+}
+
+void CustomListElement::setupListElement(const Bitmap &iconBMP, const char* busLineText, const char* busArrivingText) {
+    Unicode::UnicodeChar busLineTextBuffer[32];
+    Unicode::UnicodeChar busArrivingTextBuffer[32];
+
+    Unicode::snprintf(busLineTextBuffer, sizeof(busLineTextBuffer), "%s", busLineText);
+    Unicode::snprintf(busArrivingTextBuffer, sizeof(busArrivingTextBuffer), "%s", busArrivingText);
+
+    this->setupListElement(iconBMP, busLineTextBuffer, busArrivingTextBuffer);
 }
 
 void CustomListElement::setAction(GenericCallback<CustomListElement &> &callback)

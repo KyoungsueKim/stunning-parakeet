@@ -16,7 +16,8 @@ public:
     /**
      * Initialize this containers widgets
      */
-    void setupListElement(const Bitmap& iconBMP, TEXTS busArrivingTextID, TEXTS busLineTextID);
+    void setupListElement(const Bitmap &iconBMP, Unicode::UnicodeChar* busLineText, Unicode::UnicodeChar* busArrivingText);
+    void setupListElement(const Bitmap &iconBMP, const char* busLineText, const char* busArrivingText);
 
     /**
      * Setup the view callback

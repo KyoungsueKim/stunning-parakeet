@@ -1,5 +1,5 @@
 Middlewares/LibJPEG/jctrans.o: \
- C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jctrans.c \
+ C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jctrans.c \
  ../../Middlewares/Third_Party/LibJPEG/include/jinclude.h \
  ../../LIBJPEG/Target/jconfig.h ../../LIBJPEG/Target/jdata_conf.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \

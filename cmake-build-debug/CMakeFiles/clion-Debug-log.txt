@@ -1,4 +1,4 @@
-C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /mnt/c/Users/Administrator/AppData/Local/Programs/CLion/bin/ttyfix /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd /mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /mnt/c/TouchGFXProjects/MyApplication -B /mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug"
+C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /mnt/c/Users/Administrator/AppData/Local/Programs/CLion/bin/ttyfix /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd /mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /mnt/c/TouchGFXProjects/stunning-parakeet -B /mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug"
 -- The C compiler identification is GNU 10.3.1
 -- The CXX compiler identification is GNU 10.3.1
 -- The ASM compiler identification is GNU
@@ -6,4 +6,4 @@ C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /mnt/c/Users/Administra
 Build type: Debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug
+-- Build files have been written to: /mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug

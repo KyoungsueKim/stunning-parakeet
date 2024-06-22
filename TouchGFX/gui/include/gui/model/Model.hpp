@@ -2,6 +2,7 @@
 #define MODEL_HPP
 
 #include <touchgfx/Utils.hpp>
+#include <string>
 
 class ModelListener;
 

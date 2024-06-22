@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/TouchGFXProjects/MyApplication
+CMAKE_SOURCE_DIR = /mnt/c/TouchGFXProjects/stunning-parakeet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/STM32H735G-DK.dir/depend.make
@@ -72,1527 +72,1527 @@ include CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj: ../TouchGFX/target/CortexMMCUInstrumentation.cpp
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/CortexMMCUInstrumentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/CortexMMCUInstrumentation.cpp
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/CortexMMCUInstrumentation.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/CortexMMCUInstrumentation.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/CortexMMCUInstrumentation.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/CortexMMCUInstrumentation.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/CortexMMCUInstrumentation.cpp.s
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj: ../TouchGFX/target/TouchGFXHAL.cpp
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/TouchGFXHAL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/TouchGFXHAL.cpp
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/TouchGFXHAL.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/TouchGFXHAL.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/TouchGFXHAL.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/TouchGFXHAL.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXHAL.cpp.s
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj: ../TouchGFX/target/STM32TouchController.cpp
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/STM32TouchController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/STM32TouchController.cpp
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/STM32TouchController.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/STM32TouchController.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/STM32TouchController.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/STM32TouchController.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/STM32TouchController.cpp.s
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj: ../TouchGFX/target/TouchGFXGPIO.cpp
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/TouchGFXGPIO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/TouchGFXGPIO.cpp
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/TouchGFXGPIO.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/TouchGFXGPIO.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/TouchGFXGPIO.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/TouchGFXGPIO.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/TouchGFXGPIO.cpp.s
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj: ../TouchGFX/target/generated/TouchGFXConfiguration.cpp
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/TouchGFXConfiguration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXConfiguration.cpp
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/TouchGFXConfiguration.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXConfiguration.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/TouchGFXConfiguration.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXConfiguration.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXConfiguration.cpp.s
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj: ../TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp.s
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj: ../TouchGFX/target/generated/STM32DMA.cpp
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/STM32DMA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/STM32DMA.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/STM32DMA.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/STM32DMA.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/STM32DMA.cpp.s
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj: ../TouchGFX/target/generated/OSWrappers.cpp
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/OSWrappers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/OSWrappers.cpp
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/OSWrappers.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/OSWrappers.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/OSWrappers.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/OSWrappers.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/OSWrappers.cpp.s
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj: ../TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp > CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp.s
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj: ../TouchGFX/App/app_touchgfx.c
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/App/app_touchgfx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj -MF CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/App/app_touchgfx.c
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/App/app_touchgfx.c > CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/App/app_touchgfx.c > CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.i
 
 CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/TouchGFX/App/app_touchgfx.c -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/TouchGFX/App/app_touchgfx.c -o CMakeFiles/STM32H735G-DK.dir/TouchGFX/App/app_touchgfx.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj: ../Core/Src/main.c
 CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Core/Src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/main.c
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Core/Src/main.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/main.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Core/Src/main.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/main.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/main.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
 CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Core/Src/freertos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/freertos.c
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Core/Src/freertos.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/freertos.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Core/Src/freertos.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/freertos.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/freertos.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj: ../Core/Src/stm32h7xx_it.c
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_it.c
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_it.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_it.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_it.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_it.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_it.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj: ../Core/Src/stm32h7xx_hal_msp.c
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_hal_msp.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_hal_msp.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_msp.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_msp.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: ../Core/Src/stm32h7xx_hal_timebase_tim.c
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_hal_timebase_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_timebase_tim.c
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_hal_timebase_tim.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_timebase_tim.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_hal_timebase_tim.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/stm32h7xx_hal_timebase_tim.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.s
 
 CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj: ../LIBJPEG/App/libjpeg.c
 CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj -MF CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/LIBJPEG/App/libjpeg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj -MF CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/LIBJPEG/App/libjpeg.c
 
 CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/LIBJPEG/App/libjpeg.c > CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/LIBJPEG/App/libjpeg.c > CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.i
 
 CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/LIBJPEG/App/libjpeg.c -o CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/LIBJPEG/App/libjpeg.c -o CMakeFiles/STM32H735G-DK.dir/LIBJPEG/App/libjpeg.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj: ../Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ospi.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj: ../Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_ts.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj: ../Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/STM32H735G-DK/stm32h735g_discovery_bus.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj: ../Drivers/BSP/Components/s70kl1281/s70kl1281.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/s70kl1281/s70kl1281.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/s70kl1281/s70kl1281.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/s70kl1281/s70kl1281.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/s70kl1281/s70kl1281.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/s70kl1281/s70kl1281.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/s70kl1281/s70kl1281.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/s70kl1281/s70kl1281.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj: ../Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/mx25lm51245g/mx25lm51245g.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj: ../Drivers/BSP/Components/ft5336/ft5336.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/ft5336/ft5336.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/ft5336/ft5336.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/ft5336/ft5336.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/ft5336/ft5336.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/ft5336/ft5336.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/ft5336/ft5336.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj: ../Drivers/BSP/Components/ft5336/ft5336_reg.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/ft5336/ft5336_reg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/ft5336/ft5336_reg.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/ft5336/ft5336_reg.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/ft5336/ft5336_reg.c > CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/BSP/Components/ft5336/ft5336_reg.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/ft5336/ft5336_reg.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/BSP/Components/ft5336/ft5336_reg.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ospi.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c > CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c -o CMakeFiles/STM32H735G-DK.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj: ../Core/Src/system_stm32h7xx.c
 CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Core/Src/system_stm32h7xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/system_stm32h7xx.c
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Core/Src/system_stm32h7xx.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/system_stm32h7xx.c > CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Core/Src/system_stm32h7xx.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Core/Src/system_stm32h7xx.c -o CMakeFiles/STM32H735G-DK.dir/Core/Src/system_stm32h7xx.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/croutine.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/croutine.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/croutine.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/croutine.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/list.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/list.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/list.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/list.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/list.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/queue.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/queue.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/queue.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/queue.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/tasks.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/tasks.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/tasks.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/tasks.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/timers.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/timers.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/timers.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/timers.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcapimin.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcapimin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcapimin.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcapimin.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcapimin.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcapimin.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcapimin.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapimin.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcapistd.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcapistd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcapistd.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcapistd.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcapistd.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcapistd.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcapistd.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcapistd.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdapimin.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdapimin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdapimin.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdapimin.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdapimin.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdapimin.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdapimin.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapimin.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdapistd.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdapistd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdapistd.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdapistd.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdapistd.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdapistd.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdapistd.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdapistd.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcomapi.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcomapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcomapi.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcomapi.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcomapi.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcomapi.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcomapi.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcomapi.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcparam.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcparam.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcparam.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcparam.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcparam.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcparam.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcparam.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcparam.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jctrans.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jctrans.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jctrans.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jctrans.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jctrans.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jctrans.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jctrans.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jctrans.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdtrans.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdtrans.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdtrans.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdtrans.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdtrans.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdtrans.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdtrans.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdtrans.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcinit.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcinit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcinit.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcinit.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcinit.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcinit.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcinit.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcinit.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcmaster.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcmaster.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcmaster.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcmaster.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcmaster.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcmaster.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcmaster.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmaster.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcmainct.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcmainct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcmainct.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcmainct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcmainct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcmainct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcmainct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmainct.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcprepct.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcprepct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcprepct.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcprepct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcprepct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcprepct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcprepct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcprepct.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jccoefct.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jccoefct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jccoefct.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jccoefct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jccoefct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jccoefct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jccoefct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccoefct.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jccolor.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jccolor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jccolor.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jccolor.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jccolor.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jccolor.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jccolor.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jccolor.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcsample.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcsample.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcsample.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcsample.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcsample.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcsample.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcsample.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcsample.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcdctmgr.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jfdctint.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jfdctint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jfdctint.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jfdctint.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jfdctint.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jfdctint.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jfdctint.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctint.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jfdctfst.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctfst.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jfdctflt.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jfdctflt.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jchuff.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jchuff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jchuff.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jchuff.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jchuff.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jchuff.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jchuff.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jchuff.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcarith.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcarith.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcarith.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcarith.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcarith.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcarith.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcarith.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcarith.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jcmarker.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcmarker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcmarker.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcmarker.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcmarker.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jcmarker.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jcmarker.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jcmarker.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdatadst.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatadst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatadst.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatadst.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatadst.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatadst.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatadst.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatadst.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdmaster.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmaster.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmaster.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmaster.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmaster.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmaster.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmaster.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmaster.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdinput.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdinput.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdinput.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdinput.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdinput.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdinput.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdinput.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdinput.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdmainct.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmainct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmainct.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmainct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmainct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmainct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmainct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmainct.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdcoefct.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcoefct.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdpostct.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdpostct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdpostct.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdpostct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdpostct.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdpostct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdpostct.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdpostct.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdmarker.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmarker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmarker.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmarker.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmarker.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmarker.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmarker.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmarker.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdhuff.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdhuff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdhuff.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdhuff.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdhuff.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdhuff.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdhuff.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdhuff.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdarith.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdarith.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdarith.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdarith.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdarith.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdarith.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdarith.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdarith.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jddctmgr.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jddctmgr.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jidctint.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jidctint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jidctint.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jidctint.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jidctint.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jidctint.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jidctint.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctint.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jidctfst.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jidctfst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jidctfst.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jidctfst.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jidctfst.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jidctfst.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jidctfst.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctfst.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jidctflt.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jidctflt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jidctflt.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jidctflt.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jidctflt.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jidctflt.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jidctflt.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jidctflt.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdsample.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdsample.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdsample.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdsample.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdsample.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdsample.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdsample.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdsample.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdcolor.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdcolor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdcolor.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdcolor.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdcolor.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdcolor.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdcolor.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdcolor.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdmerge.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmerge.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmerge.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmerge.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmerge.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmerge.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmerge.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdmerge.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jquant1.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jquant1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jquant1.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jquant1.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jquant1.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jquant1.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jquant1.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant1.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jquant2.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jquant2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jquant2.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jquant2.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jquant2.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jquant2.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jquant2.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jquant2.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jdatasrc.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jaricom.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jaricom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jaricom.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jaricom.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jaricom.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jaricom.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jaricom.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jaricom.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jerror.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jerror.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jerror.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jerror.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jerror.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jerror.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jerror.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jmemmgr.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemmgr.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jutils.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jutils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jutils.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jutils.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jutils.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jutils.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jutils.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jutils.c.s
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj: ../Middlewares/Third_Party/LibJPEG/source/jmemnobs.c
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj -MF CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c > CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.i
 
 CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c -o CMakeFiles/STM32H735G-DK.dir/Middlewares/Third_Party/LibJPEG/source/jmemnobs.c.s
 
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj: ../STM32CubeIDE/Application/User/Core/sysmem.c
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj -MF CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/STM32CubeIDE/Application/User/Core/sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj -MF CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/STM32CubeIDE/Application/User/Core/sysmem.c
 
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/STM32CubeIDE/Application/User/Core/sysmem.c > CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/STM32CubeIDE/Application/User/Core/sysmem.c > CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.i
 
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/STM32CubeIDE/Application/User/Core/sysmem.c -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/STM32CubeIDE/Application/User/Core/sysmem.c -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/sysmem.c.s
 
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj: ../STM32CubeIDE/Application/User/Core/syscalls.c
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj: CMakeFiles/STM32H735G-DK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj -MF CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj -c /mnt/c/TouchGFXProjects/MyApplication/STM32CubeIDE/Application/User/Core/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj -MF CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj.d -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/STM32CubeIDE/Application/User/Core/syscalls.c
 
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/STM32CubeIDE/Application/User/Core/syscalls.c > CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/STM32CubeIDE/Application/User/Core/syscalls.c > CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.i
 
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/STM32CubeIDE/Application/User/Core/syscalls.c -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/STM32CubeIDE/Application/User/Core/syscalls.c -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Core/syscalls.c.s
 
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.obj: CMakeFiles/STM32H735G-DK.dir/flags.make
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.obj: ../STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building ASM object CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.obj -c /mnt/c/TouchGFXProjects/MyApplication/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building ASM object CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.obj -c /mnt/c/TouchGFXProjects/stunning-parakeet/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s
 
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/c/TouchGFXProjects/MyApplication/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s > CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.i
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/c/TouchGFXProjects/stunning-parakeet/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s > CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.i
 
 CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/TouchGFXProjects/MyApplication/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.s
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/TouchGFXProjects/stunning-parakeet/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s -o CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.s
 
 # Object files for target STM32H735G-DK
 STM32H735G__DK_OBJECTS = \
@@ -1820,7 +1820,7 @@ STM32H735G-DK.elf: CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Co
 STM32H735G-DK.elf: CMakeFiles/STM32H735G-DK.dir/STM32CubeIDE/Application/User/Startup/startup_stm32h735igkx.s.obj
 STM32H735G-DK.elf: CMakeFiles/STM32H735G-DK.dir/build.make
 STM32H735G-DK.elf: CMakeFiles/STM32H735G-DK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Linking CXX executable STM32H735G-DK.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Linking CXX executable STM32H735G-DK.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/STM32H735G-DK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1832,6 +1832,6 @@ CMakeFiles/STM32H735G-DK.dir/clean:
 .PHONY : CMakeFiles/STM32H735G-DK.dir/clean
 
 CMakeFiles/STM32H735G-DK.dir/depend:
-	cd /mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/TouchGFXProjects/MyApplication /mnt/c/TouchGFXProjects/MyApplication /mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug /mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug /mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles/STM32H735G-DK.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/TouchGFXProjects/stunning-parakeet /mnt/c/TouchGFXProjects/stunning-parakeet /mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug /mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug /mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles/STM32H735G-DK.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/STM32H735G-DK.dir/depend
 

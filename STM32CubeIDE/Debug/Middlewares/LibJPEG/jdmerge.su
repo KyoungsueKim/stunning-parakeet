@@ -1,6 +1,6 @@
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:126:1:start_pass_merged_upsample	0	static
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:193:1:merged_1v_upsample	16	static
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:226:1:h2v1_merged_upsample	72	static
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:288:1:h2v2_merged_upsample	88	static
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:144:1:merged_2v_upsample	40	static
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:370:1:jinit_merged_upsampler	24	static
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:126:1:start_pass_merged_upsample	0	static
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:193:1:merged_1v_upsample	16	static
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:226:1:h2v1_merged_upsample	72	static
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:288:1:h2v2_merged_upsample	88	static
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:144:1:merged_2v_upsample	40	static
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:370:1:jinit_merged_upsampler	24	static

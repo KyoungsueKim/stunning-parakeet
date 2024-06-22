@@ -1,6 +1,6 @@
-C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:35:43:const touchgfx::TypedText::TypedTextData* TypedTextDatabase::getInstance(touchgfx::LanguageId)	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:40:10:uint16_t TypedTextDatabase::getInstanceSize()	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:45:24:const touchgfx::Font** TypedTextDatabase::getFonts()	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:50:23:const touchgfx::Font* TypedTextDatabase::setFont(touchgfx::FontId, const touchgfx::Font*)	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:57:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	3
-C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:69:1:cpp)	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:35:43:const touchgfx::TypedText::TypedTextData* TypedTextDatabase::getInstance(touchgfx::LanguageId)	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:40:10:uint16_t TypedTextDatabase::getInstanceSize()	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:45:24:const touchgfx::Font** TypedTextDatabase::getFonts()	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:50:23:const touchgfx::Font* TypedTextDatabase::setFont(touchgfx::FontId, const touchgfx::Font*)	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:57:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	3
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:69:1:cpp)	1

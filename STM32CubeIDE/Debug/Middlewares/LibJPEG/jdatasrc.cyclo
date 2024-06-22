@@ -1,8 +1,8 @@
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:46:1:init_source	1
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:59:1:init_mem_source	1
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:125:1:fill_mem_input_buffer	1
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:159:1:skip_input_data	3
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:99:1:fill_input_buffer	3
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:200:1:term_source	1
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:213:1:jpeg_stdio_src	2
-C:/TouchGFXProjects/MyApplication/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:252:1:jpeg_mem_src	4
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:46:1:init_source	1
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:59:1:init_mem_source	1
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:125:1:fill_mem_input_buffer	1
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:159:1:skip_input_data	3
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:99:1:fill_input_buffer	3
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:200:1:term_source	1
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:213:1:jpeg_stdio_src	2
+C:/TouchGFXProjects/stunning-parakeet/Middlewares/Third_Party/LibJPEG/source/jdatasrc.c:252:1:jpeg_mem_src	4

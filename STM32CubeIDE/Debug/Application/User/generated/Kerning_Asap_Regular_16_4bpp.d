@@ -1,5 +1,5 @@
 Application/User/generated/Kerning_Asap_Regular_16_4bpp.o: \
- C:/TouchGFXProjects/MyApplication/TouchGFX/generated/fonts/src/Kerning_Asap_Regular_16_4bpp.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/fonts/src/Kerning_Asap_Regular_16_4bpp.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

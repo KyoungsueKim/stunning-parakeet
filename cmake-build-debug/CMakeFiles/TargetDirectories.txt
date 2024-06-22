@@ -1,5 +1,5 @@
-/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles/STM32H735G-DK.dir
-/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
-/mnt/c/TouchGFXProjects/MyApplication/cmake-build-debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
+/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles/STM32H735G-DK.dir
+/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/mnt/c/TouchGFXProjects/stunning-parakeet/cmake-build-debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

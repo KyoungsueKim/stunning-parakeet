@@ -1,0 +1,22 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
+../../TouchGFX/gui/include/gui/containers/CustomListElement.hpp:14:13:CustomListElement::~CustomListElement()	1
+../../TouchGFX/gui/include/gui/containers/CustomListElement.hpp:14:13:virtual CustomListElement::~CustomListElement()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/containers/CustomListElement.cpp:50:6:virtual void CustomListElement::callBusAction()	2
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/containers/CustomListElement.cpp:4:1:CustomListElement::CustomListElement()	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/containers/CustomListElement.cpp:37:6:void CustomListElement::setAction(touchgfx::GenericCallback<CustomListElement&>&)	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/containers/CustomListElement.cpp:42:13:const char* CustomListElement::getBusLineNumber() const	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/containers/CustomListElement.cpp:9:6:void CustomListElement::setupListElement(const touchgfx::Bitmap&, touchgfx::Unicode::UnicodeChar*, touchgfx::Unicode::UnicodeChar*)	1
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/containers/CustomListElement.cpp:27:6:void CustomListElement::setupListElement(const touchgfx::Bitmap&, const char*, const char*)	1

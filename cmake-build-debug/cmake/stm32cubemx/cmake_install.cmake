@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/TouchGFXProjects/MyApplication/cmake/stm32cubemx
+# Install script for directory: /mnt/c/TouchGFXProjects/stunning-parakeet/cmake/stm32cubemx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

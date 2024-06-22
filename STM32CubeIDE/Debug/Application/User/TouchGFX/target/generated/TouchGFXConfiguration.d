@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
- C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
  ../../TouchGFX/generated/texts/include/texts/TypedTextDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
@@ -70,16 +70,7 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ListLayout.hpp \
- ../../TouchGFX/generated/images/include/BitmapDatabase.hpp \
- ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/VectorFontRendererImpl.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD24bpp.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD24DebugPrinter.hpp \
- ../../TouchGFX/target/generated/STM32DMA.hpp \
- ../../TouchGFX/target/TouchGFXHAL.hpp \
- ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp \
- ../../TouchGFX/target/CortexMMCUInstrumentation.hpp \
- ../../TouchGFX/target/STM32TouchController.hpp \
+ ../../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -117,7 +108,17 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
- ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+ ../../TouchGFX/generated/images/include/BitmapDatabase.hpp \
+ ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/VectorFontRendererImpl.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD24bpp.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD24DebugPrinter.hpp \
+ ../../TouchGFX/target/generated/STM32DMA.hpp \
+ ../../TouchGFX/target/TouchGFXHAL.hpp \
+ ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp \
+ ../../TouchGFX/target/CortexMMCUInstrumentation.hpp \
+ ../../TouchGFX/target/STM32TouchController.hpp
 ../../TouchGFX/generated/texts/include/texts/TypedTextDatabase.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:
@@ -188,16 +189,7 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ListLayout.hpp:
-../../TouchGFX/generated/images/include/BitmapDatabase.hpp:
-../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp:
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/VectorFontRendererImpl.hpp:
-../../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD24bpp.hpp:
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD24DebugPrinter.hpp:
-../../TouchGFX/target/generated/STM32DMA.hpp:
-../../TouchGFX/target/TouchGFXHAL.hpp:
-../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:
-../../TouchGFX/target/CortexMMCUInstrumentation.hpp:
-../../TouchGFX/target/STM32TouchController.hpp:
+../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -236,3 +228,13 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
+../../TouchGFX/generated/images/include/BitmapDatabase.hpp:
+../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp:
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/VectorFontRendererImpl.hpp:
+../../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD24bpp.hpp:
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD24DebugPrinter.hpp:
+../../TouchGFX/target/generated/STM32DMA.hpp:
+../../TouchGFX/target/TouchGFXHAL.hpp:
+../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:
+../../TouchGFX/target/CortexMMCUInstrumentation.hpp:
+../../TouchGFX/target/STM32TouchController.hpp:

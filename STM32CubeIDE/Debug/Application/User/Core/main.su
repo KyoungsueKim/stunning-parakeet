@@ -1,0 +1,9 @@
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:852:6:StartDefaultTask	8	static
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:144:6:parseData	56	static
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:126:6:HAL_UART_RxCpltCallback	8	static
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:164:6:HAL_UART_IDLECallback	8	static
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:296:6:SystemClock_Config	120	static
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:354:6:PeriphCommonClock_Config	192	static
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:181:5:main	152	static,ignoring_inline_asm
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:941:6:HAL_TIM_PeriodElapsedCallback	0	static
+C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:958:6:Error_Handler	0	static

@@ -1,5 +1,5 @@
 Application/User/generated/FontCache.o: \
- C:/TouchGFXProjects/MyApplication/TouchGFX/generated/fonts/src/FontCache.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/fonts/src/FontCache.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \

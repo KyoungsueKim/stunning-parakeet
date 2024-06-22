@@ -1,5 +1,5 @@
 Application/User/gui/Model.o: \
- C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/model/Model.cpp \
+ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/model/Model.cpp \
  ../../TouchGFX/gui/include/gui/model/Model.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp \
