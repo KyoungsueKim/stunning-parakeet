@@ -13,19 +13,15 @@ class FlashDataReader;
 
 struct Typography
 {
-    static const touchgfx::FontId DEFAULT = 0;
-    static const touchgfx::FontId LARGE = 1;
-    static const touchgfx::FontId SMALL = 2;
-    static const touchgfx::FontId TYPOGRAPHY = 3;
+    static const touchgfx::FontId LIST_ELEMENT_TEXT = 0;
+    static const touchgfx::FontId HANGUL = 1;
 };
 
 struct TypographyFontIndex
 {
-    static const touchgfx::FontId DEFAULT = 0;    // NanumGothic_24_4bpp
-    static const touchgfx::FontId LARGE = 1;      // NanumGothic_14_4bpp
-    static const touchgfx::FontId SMALL = 2;      // NanumGothic_15_4bpp
-    static const touchgfx::FontId TYPOGRAPHY = 3; // NanumGothic_20_4bpp
-    static const uint16_t NUMBER_OF_FONTS = 4;
+    static const touchgfx::FontId LIST_ELEMENT_TEXT = 0; // Asap_Regular_16_4bpp
+    static const touchgfx::FontId HANGUL = 1;            // NanumGothicLight_16_4bpp
+    static const uint16_t NUMBER_OF_FONTS = 2;
 };
 
 class ApplicationFontProvider : public touchgfx::FontProvider

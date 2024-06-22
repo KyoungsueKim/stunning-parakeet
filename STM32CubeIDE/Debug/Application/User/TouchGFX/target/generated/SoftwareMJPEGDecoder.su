@@ -1,23 +1,23 @@
 ../../TouchGFX/target/generated/SoftwareMJPEGDecoder.hpp:44:22:virtual uint32_t SoftwareMJPEGDecoder::getCurrentFrameNumber() const	0	static
 ../../TouchGFX/target/generated/SoftwareMJPEGDecoder.hpp:58:23:virtual MJPEGDecoder::AVIErrors SoftwareMJPEGDecoder::getLastError()	0	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:223:6:virtual bool SoftwareMJPEGDecoder::hasVideo()	0	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:554:10:virtual uint32_t SoftwareMJPEGDecoder::getNumberOfFrames()	0	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:559:6:virtual void SoftwareMJPEGDecoder::getVideoInfo(touchgfx::VideoInformation*)	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:223:6:virtual bool SoftwareMJPEGDecoder::hasVideo()	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:554:10:virtual uint32_t SoftwareMJPEGDecoder::getNumberOfFrames()	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:559:6:virtual void SoftwareMJPEGDecoder::getVideoInfo(touchgfx::VideoInformation*)	8	static
 ../../TouchGFX/target/generated/SoftwareMJPEGDecoder.hpp:23:7:SoftwareMJPEGDecoder::~SoftwareMJPEGDecoder()	0	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:528:6:virtual bool SoftwareMJPEGDecoder::decodeThumbnail(uint32_t, uint8_t*, uint16_t, uint16_t)	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:528:6:virtual bool SoftwareMJPEGDecoder::decodeThumbnail(uint32_t, uint8_t*, uint16_t, uint16_t)	8	static
 ../../TouchGFX/target/generated/SoftwareMJPEGDecoder.hpp:23:7:virtual SoftwareMJPEGDecoder::~SoftwareMJPEGDecoder()	8	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:331:6:0(const uint8_t*, uint32_t, uint8_t*, uint16_t, uint16_t, uint32_t)	656	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:38:1:SoftwareMJPEGDecoder::SoftwareMJPEGDecoder(uint8_t*)	0	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:49:5:int SoftwareMJPEGDecoder::compare(uint32_t, const char*, uint32_t)	4	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:64:17:uint32_t SoftwareMJPEGDecoder::getU32(uint32_t)	8	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:79:17:uint32_t SoftwareMJPEGDecoder::getU16(uint32_t)	0	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:94:16:const uint8_t* SoftwareMJPEGDecoder::readData(uint32_t, uint32_t)	16	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:168:6:virtual bool SoftwareMJPEGDecoder::gotoNextFrame()	32	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:416:6:virtual bool SoftwareMJPEGDecoder::decodeFrame(const touchgfx::Rect&, uint8_t*, uint32_t)	672	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:534:6:virtual void SoftwareMJPEGDecoder::gotoFrame(uint32_t)	16	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:228:6:void SoftwareMJPEGDecoder::readVideoHeader()	24	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:205:6:virtual void SoftwareMJPEGDecoder::setVideoData(const uint8_t*, uint32_t)	0	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:214:6:virtual void SoftwareMJPEGDecoder::setVideoData(touchgfx::VideoDataReader&)	8	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:331:6:void SoftwareMJPEGDecoder::decodeMJPEGFrame(const uint8_t*, uint32_t, uint8_t*, uint16_t, uint16_t, uint32_t)	16	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:117:6:virtual bool SoftwareMJPEGDecoder::decodeNextFrame(uint8_t*, uint16_t, uint16_t, uint32_t)	56	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:573:12:size_t jpeg_read_file(FILE*, uint8_t*, uint32_t)	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:331:6:0(const uint8_t*, uint32_t, uint8_t*, uint16_t, uint16_t, uint32_t)	656	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:38:1:SoftwareMJPEGDecoder::SoftwareMJPEGDecoder(uint8_t*)	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:49:5:int SoftwareMJPEGDecoder::compare(uint32_t, const char*, uint32_t)	4	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:64:17:uint32_t SoftwareMJPEGDecoder::getU32(uint32_t)	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:79:17:uint32_t SoftwareMJPEGDecoder::getU16(uint32_t)	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:94:16:const uint8_t* SoftwareMJPEGDecoder::readData(uint32_t, uint32_t)	16	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:168:6:virtual bool SoftwareMJPEGDecoder::gotoNextFrame()	32	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:416:6:virtual bool SoftwareMJPEGDecoder::decodeFrame(const touchgfx::Rect&, uint8_t*, uint32_t)	672	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:534:6:virtual void SoftwareMJPEGDecoder::gotoFrame(uint32_t)	16	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:228:6:void SoftwareMJPEGDecoder::readVideoHeader()	24	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:205:6:virtual void SoftwareMJPEGDecoder::setVideoData(const uint8_t*, uint32_t)	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:214:6:virtual void SoftwareMJPEGDecoder::setVideoData(touchgfx::VideoDataReader&)	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:331:6:void SoftwareMJPEGDecoder::decodeMJPEGFrame(const uint8_t*, uint32_t, uint8_t*, uint16_t, uint16_t, uint32_t)	16	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:117:6:virtual bool SoftwareMJPEGDecoder::decodeNextFrame(uint8_t*, uint16_t, uint16_t, uint32_t)	56	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/generated/SoftwareMJPEGDecoder.cpp:573:12:size_t jpeg_read_file(FILE*, uint8_t*, uint32_t)	8	static

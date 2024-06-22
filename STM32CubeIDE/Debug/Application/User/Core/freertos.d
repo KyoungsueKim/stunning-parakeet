@@ -1,5 +1,5 @@
 Application/User/Core/freertos.o: \
- C:/TouchGFXProjects/stunning-parakeet/Core/Src/freertos.c \
+ C:/TouchGFXProjects/MyApplication/Core/Src/freertos.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

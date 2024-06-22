@@ -1,2 +1,2 @@
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/images/src/BitmapDatabase.cpp:27:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/images/src/BitmapDatabase.cpp:32:10:uint16_t BitmapDatabase::getInstanceSize()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/images/src/BitmapDatabase.cpp:29:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/images/src/BitmapDatabase.cpp:34:10:uint16_t BitmapDatabase::getInstanceSize()	1

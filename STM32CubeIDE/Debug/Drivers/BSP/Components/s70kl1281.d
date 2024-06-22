@@ -1,6 +1,6 @@
 Drivers/BSP/Components/s70kl1281.o: \
- C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/s70kl1281/s70kl1281.c \
- C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/s70kl1281/s70kl1281.h \
+ C:/TouchGFXProjects/MyApplication/Drivers/BSP/Components/s70kl1281/s70kl1281.c \
+ C:/TouchGFXProjects/MyApplication/Drivers/BSP/Components/s70kl1281/s70kl1281.h \
  ../../Core/Inc/s70kl1281_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../Core/Inc/stm32h7xx_hal_conf.h \
@@ -40,7 +40,7 @@ Drivers/BSP/Components/s70kl1281.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-C:/TouchGFXProjects/stunning-parakeet/Drivers/BSP/Components/s70kl1281/s70kl1281.h:
+C:/TouchGFXProjects/MyApplication/Drivers/BSP/Components/s70kl1281/s70kl1281.h:
 ../../Core/Inc/s70kl1281_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:

@@ -42,12 +42,10 @@ MEMORY
 {
   DTCMRAM    (xrw)    : ORIGIN = 0x20000000,   LENGTH = 128K
   ITCMRAM    (xrw)    : ORIGIN = 0x00000000,   LENGTH = 64K
-  RAM_D1     (xrw)    : ORIGIN = 0x24000000,   LENGTH = 320K
-  RAM_D2     (xrw)    : ORIGIN = 0x30000000,   LENGTH = 32K
-  RAM_D3     (xrw)    : ORIGIN = 0x38000000,   LENGTH = 16K
-  FLASH      (rx)     : ORIGIN = 0x8000000,    LENGTH = 1024K
-  OSPI	     (xrw)    : ORIGIN = 0x90000000,   LENGTH = 64M
-  HYPERRAM   (xrw)    : ORIGIN = 0x70000000,   LENGTH = 16M
+  RAM_D1    (xrw)    : ORIGIN = 0x24000000,   LENGTH = 320K
+  RAM_D2    (xrw)    : ORIGIN = 0x30000000,   LENGTH = 32K
+  RAM_D3    (xrw)    : ORIGIN = 0x38000000,   LENGTH = 16K
+  FLASH    (rx)    : ORIGIN = 0x8000000,   LENGTH = 1024K
 }
 
 /* Sections */
@@ -172,21 +170,6 @@ SECTIONS
     . = . + _Min_Stack_Size;
     . = ALIGN(8);
   } >RAM_D1
-  
-      /* ETH_CODE: add placement of DMA descriptors and RX buffers */
-/* ETH_CODE: add placement of DMA descriptors and RX buffers */
-/* lwIP section placed after BufferSection */
-.lwip_sec (NOLOAD) :
-{
-  . = ABSOLUTE(0x70100000);
-  *(.RxDecripSection)
-  
-  . = ABSOLUTE(0x70100060);
-  *(.TxDecripSection)
-  
-  . = ABSOLUTE(0x70100200);
-  *(.Rx_PoolSection)  
-} > HYPERRAM
 
   /* Remove information from the compiler libraries */
   /DISCARD/ :
@@ -197,18 +180,4 @@ SECTIONS
   }
 
   .ARM.attributes 0 : { *(.ARM.attributes) }
-  
-    FontFlashSection :
-  {
-    *(FontFlashSection FontFlashSection.*)
-    *(.gnu.linkonce.r.*)
-    . = ALIGN(0x4);
-  } >OSPI
-
-  TextFlashSection :
-  {
-    *(TextFlashSection TextFlashSection.*)
-    *(.gnu.linkonce.r.*)
-    . = ALIGN(0x4);
-  } >OSPI
 }

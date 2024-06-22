@@ -1,6 +1,0 @@
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:126:1:start_pass_merged_upsample	1
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:193:1:merged_1v_upsample	1
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:226:1:h2v1_merged_upsample	3
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:288:1:h2v2_merged_upsample	3
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:144:1:merged_2v_upsample	4
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LibJPEG/source/jdmerge.c:370:1:jinit_merged_upsampler	3

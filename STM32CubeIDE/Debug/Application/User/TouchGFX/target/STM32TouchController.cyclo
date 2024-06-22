@@ -1,4 +1,4 @@
 ../../TouchGFX/target/STM32TouchController.hpp:36:7:STM32TouchController::~STM32TouchController()	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/STM32TouchController.cpp:28:6:virtual void STM32TouchController::init()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/STM32TouchController.cpp:28:6:virtual void STM32TouchController::init()	1
 ../../TouchGFX/target/STM32TouchController.hpp:36:7:virtual STM32TouchController::~STM32TouchController()	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/target/STM32TouchController.cpp:39:6:virtual bool STM32TouchController::sampleTouch(int32_t&, int32_t&)	3
+C:/TouchGFXProjects/MyApplication/TouchGFX/target/STM32TouchController.cpp:39:6:virtual bool STM32TouchController::sampleTouch(int32_t&, int32_t&)	3

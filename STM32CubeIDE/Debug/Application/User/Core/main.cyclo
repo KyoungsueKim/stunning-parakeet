@@ -1,6 +1,0 @@
-C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:1001:6:StartDefaultTask	1
-C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:230:6:SystemClock_Config	2
-C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:288:6:PeriphCommonClock_Config	1
-C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:115:5:main	5
-C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:1090:6:HAL_TIM_PeriodElapsedCallback	2
-C:/TouchGFXProjects/stunning-parakeet/Core/Src/main.c:1107:6:Error_Handler	1

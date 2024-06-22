@@ -172,20 +172,6 @@ SECTIONS
     . = . + _Min_Stack_Size;
     . = ALIGN(8);
   } >RAM_D1
-  
-    /* ETH_CODE: add placement of DMA descriptors and RX buffers */
-/* lwIP section placed after BufferSection */
-.lwip_sec (NOLOAD) :
-{
-  . = ABSOLUTE(0x70100000);
-  *(.RxDecripSection)
-  
-  . = ABSOLUTE(0x70100060);
-  *(.TxDecripSection)
-  
-  . = ABSOLUTE(0x70100200);
-  *(.Rx_PoolSection)  
-} > HYPERRAM
 
   /* Remove information from the compiler libraries */
   /DISCARD/ :
@@ -196,7 +182,7 @@ SECTIONS
   }
 
   .ARM.attributes 0 : { *(.ARM.attributes) }
-
+/*
   FontFlashSection :
   {
     *(FontFlashSection FontFlashSection.*)
@@ -210,7 +196,7 @@ SECTIONS
     *(.gnu.linkonce.r.*)
     . = ALIGN(0x4);
   } >OSPI
-
+*/
   ExtFlashSection :
   {
     *(ExtFlashSection ExtFlashSection.*)

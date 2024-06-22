@@ -40,51 +40,32 @@ TouchGFX/build/STM32H735G-DK/TouchGFX/generated/gui_generated/src/common/Fronten
  Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Gestures.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp \
  TouchGFX/gui/include/gui/model/Model.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
  TouchGFX/gui/include/gui/common/FrontendHeap.hpp \
  TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendHeapBase.hpp \
  Middlewares/ST/touchgfx/framework/include/common/Meta.hpp \
  Middlewares/ST/touchgfx/framework/include/common/Partition.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp \
  TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
- TouchGFX/gui/include/gui/home_screen/HOMEView.hpp \
- TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HOMEViewBase.hpp \
+ TouchGFX/gui/include/gui/main_screen/MainView.hpp \
+ TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp \
  Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- TouchGFX/gui/include/gui/home_screen/HOMEPresenter.hpp \
+ TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp \
  TouchGFX/gui/include/gui/model/ModelListener.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ListLayout.hpp \
+ TouchGFX/gui/include/gui/containers/CustomListElement.hpp \
+ TouchGFX/generated/gui_generated/include/gui_generated/containers/CustomListElementBase.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/Buttons.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AnimatedImageButtonStyle.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/IconButtonStyle.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/RepeatButtonTrigger.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TextButtonStyle.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TiledImageButtonStyle.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TiledImage.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ToggleButtonTrigger.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TouchButtonTrigger.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TwoWildcardTextButtonStyle.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp \
- TouchGFX/gui/include/gui/comfirm_screen/COMFIRMView.hpp \
- TouchGFX/generated/gui_generated/include/gui_generated/comfirm_screen/COMFIRMViewBase.hpp \
- TouchGFX/gui/include/gui/comfirm_screen/COMFIRMPresenter.hpp \
- TouchGFX/gui/include/gui/appclip_screen/APPCLIPView.hpp \
- TouchGFX/generated/gui_generated/include/gui_generated/appclip_screen/APPCLIPViewBase.hpp \
- TouchGFX/gui/include/gui/appclip_screen/APPCLIPPresenter.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
  Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD24bpp.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD24DebugPrinter.hpp
@@ -169,6 +150,8 @@ Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:
 
 TouchGFX/gui/include/gui/model/Model.hpp:
 
+Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:
+
 TouchGFX/gui/include/gui/common/FrontendHeap.hpp:
 
 TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendHeapBase.hpp:
@@ -181,83 +164,43 @@ Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:
 
 TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
 
-TouchGFX/gui/include/gui/home_screen/HOMEView.hpp:
+TouchGFX/gui/include/gui/main_screen/MainView.hpp:
 
-TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HOMEViewBase.hpp:
+TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:
 
 Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
-TouchGFX/gui/include/gui/home_screen/HOMEPresenter.hpp:
+TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:
 
 TouchGFX/gui/include/gui/model/ModelListener.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
+Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
+
+Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ListLayout.hpp:
+
+TouchGFX/gui/include/gui/containers/CustomListElement.hpp:
+
+TouchGFX/generated/gui_generated/include/gui_generated/containers/CustomListElementBase.hpp:
+
+Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:
+
+Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
 
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:
-
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
 
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:
+Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/Buttons.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AnimatedImageButtonStyle.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/IconButtonStyle.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ImageButtonStyle.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/RepeatButtonTrigger.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TextButtonStyle.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TiledImageButtonStyle.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TiledImage.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ToggleButtonTrigger.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TouchButtonTrigger.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TwoWildcardTextButtonStyle.hpp:
-
-Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp:
-
-TouchGFX/gui/include/gui/comfirm_screen/COMFIRMView.hpp:
-
-TouchGFX/generated/gui_generated/include/gui_generated/comfirm_screen/COMFIRMViewBase.hpp:
-
-TouchGFX/gui/include/gui/comfirm_screen/COMFIRMPresenter.hpp:
-
-TouchGFX/gui/include/gui/appclip_screen/APPCLIPView.hpp:
-
-TouchGFX/generated/gui_generated/include/gui_generated/appclip_screen/APPCLIPViewBase.hpp:
-
-TouchGFX/gui/include/gui/appclip_screen/APPCLIPPresenter.hpp:
+Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 
 TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
 

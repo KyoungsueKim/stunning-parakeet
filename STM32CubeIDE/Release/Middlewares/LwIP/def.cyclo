@@ -1,6 +1,0 @@
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/core/def.c:76:1:lwip_htons	1
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/core/def.c:90:1:lwip_htonl	1
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/core/def.c:105:1:lwip_strnstr	6
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/core/def.c:128:1:lwip_stricmp	5
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/core/def.c:163:1:lwip_strnicmp	6
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/core/def.c:199:1:lwip_itoa	7

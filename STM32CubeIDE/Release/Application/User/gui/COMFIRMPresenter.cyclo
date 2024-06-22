@@ -1,5 +1,0 @@
-../../TouchGFX/gui/include/gui/comfirm_screen/COMFIRMPresenter.hpp:28:13:COMFIRMPresenter::~COMFIRMPresenter()	1
-C:/TouchGFXProjects/JCD/TouchGFX/gui/src/comfirm_screen/COMFIRMPresenter.cpp:10:6:virtual void COMFIRMPresenter::activate()	1
-../../TouchGFX/gui/include/gui/comfirm_screen/COMFIRMPresenter.hpp:28:13:virtual COMFIRMPresenter::~COMFIRMPresenter()	1
-../../TouchGFX/gui/include/gui/comfirm_screen/COMFIRMPresenter.hpp:28:13:virtual void* COMFIRMPresenter::_ZThn4_N16COMFIRMPresenterD1Ev()	1
-C:/TouchGFXProjects/JCD/TouchGFX/gui/src/comfirm_screen/COMFIRMPresenter.cpp:4:1:COMFIRMPresenter::COMFIRMPresenter(COMFIRMView&)	1

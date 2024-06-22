@@ -1,4 +1,0 @@
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/api/netdb.c:87:1:lwip_gethostbyname	2
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/api/netdb.c:162:1:lwip_gethostbyname_r	8
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/api/netdb.c:236:1:lwip_freeaddrinfo	2
-C:/TouchGFXProjects/JCD/Middlewares/Third_Party/LwIP/src/api/netdb.c:269:1:lwip_getaddrinfo	20

@@ -1,9 +1,0 @@
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_msp.c:64:6:HAL_MspInit	8	static
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_msp.c:88:6:HAL_CRC_MspInit	8	static
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_msp.c:110:6:HAL_CRC_MspDeInit	0	static
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_msp.c:132:6:HAL_DMA2D_MspInit	16	static
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_msp.c:157:6:HAL_DMA2D_MspDeInit	0	static
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_msp.c:182:6:HAL_LTDC_MspInit	264	static
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_msp.c:329:6:HAL_LTDC_MspDeInit	8	static
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_msp.c:402:6:HAL_OSPI_MspInit	96	static
-C:/TouchGFXProjects/JCD/Core/Src/stm32h7xx_hal_msp.c:550:6:HAL_OSPI_MspDeInit	8	static

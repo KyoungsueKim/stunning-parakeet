@@ -1,5 +1,0 @@
-../../TouchGFX/gui/include/gui/home_screen/HOMEPresenter.hpp:28:13:HOMEPresenter::~HOMEPresenter()	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/home_screen/HOMEPresenter.cpp:10:6:virtual void HOMEPresenter::activate()	1
-../../TouchGFX/gui/include/gui/home_screen/HOMEPresenter.hpp:28:13:virtual HOMEPresenter::~HOMEPresenter()	1
-../../TouchGFX/gui/include/gui/home_screen/HOMEPresenter.hpp:28:13:virtual void* HOMEPresenter::_ZThn4_N13HOMEPresenterD1Ev()	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/home_screen/HOMEPresenter.cpp:4:1:HOMEPresenter::HOMEPresenter(HOMEView&)	1

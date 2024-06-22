@@ -1,92 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.2">
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
   <Languages>
     <Language Id="GB" />
   </Languages>
   <Texts>
-    <TextGroup Id="Group1" />
-    <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_NYVO" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_2U1P" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_5TZW" Alignment="Center" TypographyId="Small">
+    <TextGroup Id="Group1">
+      <Text Id="bus_arriving" Alignment="Left" TypographyId="hangul">
         <Translation Language="GB">&lt;Value&gt;</Translation>
       </Text>
-      <Text Id="__SingleUse_BP7H" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
+      <Text Id="bus_line_num" Alignment="Left" TypographyId="list_element_text">
+        <Translation Language="GB">&lt;Value&gt;</Translation>
       </Text>
-      <Text Id="__SingleUse_YVTI" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="bus_AR_00" Alignment="Left" TypographyId="hangul">
+        <Translation Language="GB">13m 12s</Translation>
       </Text>
-      <Text Id="__SingleUse_MBB7" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="BUSArR" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">13 분(9전)</Translation>
-      </Text>
-      <Text Id="BUS1" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">1007-1</Translation>
-      </Text>
-      <Text Id="__SingleUse_H1K4" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_KYS5" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_C94H" Alignment="Center" TypographyId="Typography">
-        <Translation Language="GB">아니요</Translation>
-      </Text>
-      <Text Id="__SingleUse_JO1R" Alignment="Center" TypographyId="Typography">
-        <Translation Language="GB">네</Translation>
-      </Text>
-      <Text Id="__SingleUse_VJXW" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">승차를 요청하시겠습니까?</Translation>
-      </Text>
-      <Text Id="__SingleUse_UQ0Q" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_OS6W" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_CSDH" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_CTOK" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="BUS0arriving" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">곧 도착(1전)</Translation>
-      </Text>
-      <Text Id="BUS0" Alignment="Left" TypographyId="Small">
+      <Text Id="bus_LN_00" Alignment="Left" TypographyId="list_element_text">
         <Translation Language="GB">720-1</Translation>
       </Text>
-      <Text Id="requestBell" Alignment="Center" TypographyId="Small">
+      <Text Id="requestBell" Alignment="Center" TypographyId="hangul">
         <Translation Language="GB">승차</Translation>
-      </Text>
-      <Text Id="RQ" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">승차</Translation>
-      </Text>
-      <Text Id="nextLO" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">창현고등학교/아주대</Translation>
-      </Text>
-      <Text Id="__SingleUse_BA4Q" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">&lt;value&gt;</Translation>
-      </Text>
-      <Text Id="CurrentLo" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">아주대학교/ 아주대병원 </Translation>
-      </Text>
-      <Text Id="__SingleUse_6MZD" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
     </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="NanumGothic.ttf" Size="24" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Large" Font="NanumGothic.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Small" Font="NanumGothic.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography" Font="NanumGothic.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="list_element_text" Font="Asap-Regular.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="hangul" Font="NanumGothicLight.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>

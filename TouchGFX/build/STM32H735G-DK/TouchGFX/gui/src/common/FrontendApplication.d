@@ -40,7 +40,8 @@ TouchGFX/build/STM32H735G-DK/TouchGFX/gui/src/common/FrontendApplication.o: \
  Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FrameBufferAllocator.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Gestures.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp \
- TouchGFX/gui/include/gui/model/Model.hpp
+ TouchGFX/gui/include/gui/model/Model.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp
 
 TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
 
@@ -123,3 +124,5 @@ Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Gestures.hpp:
 Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:
 
 TouchGFX/gui/include/gui/model/Model.hpp:
+
+Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:

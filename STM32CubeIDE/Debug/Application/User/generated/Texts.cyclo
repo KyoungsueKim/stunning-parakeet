@@ -10,11 +10,11 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:461:45:virtual const touchgfx::FontContextualFormsTable* touchgfx::Font::getContextualFormsTable() const	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:471:18:virtual bool touchgfx::Font::isVectorBasedFont() const	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:481:19:virtual float touchgfx::Font::getScaleFactor() const	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:13:10:) const	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:22:10:) const	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:31:32:touchgfx::Unicode::UnicodeChar touchgfx::TextProvider::getNextLigature(touchgfx::TextDirection)	5
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:45:6:void touchgfx::TextProvider::initializeInternal()	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:50:6:)	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:97:6:static void touchgfx::Texts::setLanguage(touchgfx::LanguageId)	4
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:127:6:static void touchgfx::Texts::setTranslation(touchgfx::LanguageId, const void*)	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/texts/src/Texts.cpp:132:39:const touchgfx::Unicode::UnicodeChar* touchgfx::Texts::getText(touchgfx::TypedTextId) const	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/Texts.cpp:13:10:) const	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/Texts.cpp:22:10:) const	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/Texts.cpp:31:32:touchgfx::Unicode::UnicodeChar touchgfx::TextProvider::getNextLigature(touchgfx::TextDirection)	5
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/Texts.cpp:45:6:void touchgfx::TextProvider::initializeInternal()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/Texts.cpp:50:6:)	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/Texts.cpp:90:6:static void touchgfx::Texts::setLanguage(touchgfx::LanguageId)	4
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/Texts.cpp:120:6:static void touchgfx::Texts::setTranslation(touchgfx::LanguageId, const void*)	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/generated/texts/src/Texts.cpp:125:39:const touchgfx::Unicode::UnicodeChar* touchgfx::Texts::getText(touchgfx::TypedTextId) const	1

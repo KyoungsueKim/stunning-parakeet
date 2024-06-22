@@ -1,8 +1,0 @@
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
-C:/TouchGFXProjects/JCD/TouchGFX/gui/src/appclip_screen/APPCLIPView.cpp:13:6:virtual void APPCLIPView::tearDownScreen()	0	static
-../../TouchGFX/gui/include/gui/appclip_screen/APPCLIPView.hpp:11:13:APPCLIPView::~APPCLIPView()	8	static
-../../TouchGFX/gui/include/gui/appclip_screen/APPCLIPView.hpp:11:13:virtual APPCLIPView::~APPCLIPView()	8	static
-C:/TouchGFXProjects/JCD/TouchGFX/gui/src/appclip_screen/APPCLIPView.cpp:3:1:APPCLIPView::APPCLIPView()	8	static
-C:/TouchGFXProjects/JCD/TouchGFX/gui/src/appclip_screen/APPCLIPView.cpp:8:6:virtual void APPCLIPView::setupScreen()	0	static
