@@ -47,7 +47,7 @@
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
-extern void HAL_UART_IDLECallback(UART_HandleTypeDef *huart);
+extern void HAL_UART_RxTimeoutCallback(UART_HandleTypeDef *huart);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -184,10 +184,10 @@ void USART1_IRQHandler(void)
   /* USER CODE BEGIN USART1_IRQn 0 */
 
   /* USER CODE END USART1_IRQn 0 */
-    if (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_IDLE))
+    if (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_RTOF))
     {
-        __HAL_UART_CLEAR_IDLEFLAG(&huart1);
-        HAL_UART_IDLECallback(&huart1);
+        __HAL_UART_CLEAR_FLAG(&huart1, UART_CLEAR_RTOF);
+        HAL_UART_RxTimeoutCallback(&huart1);
     }
     HAL_UART_IRQHandler(&huart1);
   /* USER CODE BEGIN USART1_IRQn 1 */

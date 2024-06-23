@@ -38,7 +38,7 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
-#define RX_BUFFER_SIZE 512
+#define RX_BUFFER_SIZE 1024
 
 /* USER CODE END PD */
 
@@ -80,13 +80,29 @@ const osThreadAttr_t TouchGFXTask_attributes = {
 osThreadId_t videoTaskHandle;
 const osThreadAttr_t videoTask_attributes = {
   .name = "videoTask",
-  .stack_size = 1024 * 4,
+  .stack_size = 1024,
   .priority = (osPriority_t) osPriorityLow,
 };
 /* USER CODE BEGIN PV */
 
+// 데이터 처리 태스크 생성
+osThreadAttr_t attr = {
+        .name = "ParseTask",
+        .stack_size = 1024 * 4,
+        .priority = (osPriority_t) osPriorityNormal,
+};
+
 static uint8_t rxBuffer[RX_BUFFER_SIZE];
+static uint16_t totalReceivedLength = 0;
+
+typedef struct {
+    uint8_t data[RX_BUFFER_SIZE];
+    uint16_t length;
+} UART_DataPacket;
+
 osMessageQueueId_t busInfoQueueHandle;
+osMessageQueueId_t xQueue;
+
 const osMessageQueueAttr_t busInfoQueue_attributes = {
         .name = "busInfoQueue"
 };
@@ -111,27 +127,53 @@ extern void TouchGFX_Task(void *argument);
 extern void videoTaskFunc(void *argument);
 
 /* USER CODE BEGIN PFP */
-void parseData(uint8_t* data, uint16_t len);
+int parseData(uint8_t* data, uint16_t len);
 void MX_DMA_Init(void);
-void HAL_UART_IDLECallback(UART_HandleTypeDef *huart);
+void HAL_UART_RxTimeoutCallback(UART_HandleTypeDef *huart);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
-/**
- * @brief
- * @param huart
- */
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+// 데이터 처리 태스크
+static void ParseTask(void *argument)
 {
-    HAL_UART_Transmit(&huart1, (uint8_t *) "HAL_UART_RxCpltCallback called.\n", 34, HAL_MAX_DELAY);
+    UART_DataPacket packet;
+    while (1)
+    {
+        if (osMessageQueueGet(xQueue, &packet, NULL, osWaitForever) == osOK)
+        {
+            // 수신된 데이터 처리
+            parseData(packet.data, packet.length);
+        }
+    }
+}
+
+void HAL_UART_RxTimeoutCallback(UART_HandleTypeDef *huart)
+{
+    printf("[DEBUG] HAL_UART_RxTimeoutCallback called\r\n");
     if (huart->Instance == USART1)
     {
-        // ?��?��?�� ?��?��?���? ?��?��
-        parseData(rxBuffer, RX_BUFFER_SIZE);
+        // 현재 수신된 데이터 길이를 계산
+        uint16_t receivedLength = RX_BUFFER_SIZE - __HAL_DMA_GET_COUNTER(huart->hdmarx);
+        printf("[DEBUG] Received data length: %d\r\n", receivedLength);
 
-        // ?��?�� UART DMA ?��?�� ?��?��
+        rxBuffer[receivedLength] = '\0'; // NUL 문자 추가
+        printf("[DEBUG] Received data: <%s>\r\n", rxBuffer);
+
+        // UART 데이터 패킷 생성 및 초기화
+        UART_DataPacket packet = {0}; // 패킷 데이터 초기화
+        memcpy(packet.data, rxBuffer, receivedLength);
+        packet.length = receivedLength;
+        printf("[DEBUG] Packet data: <%s>\r\n", packet.data);
+
+        // 패킷을 큐에 추가
+        osStatus_t status = osMessageQueuePut(xQueue, &packet, 0, osWaitForever);
+        if (status != osOK)
+        {
+            printf("[ERROR] Failed to send data to queue. Reason: %d\r\n", status);
+        }
+
+        // DMA 재시작
         HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_BUFFER_SIZE);
     }
 }
@@ -139,37 +181,46 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 /**
  * @brief Parse bus information from UART1
  * @param data: bus information data (char*)
- * @param len: data length (uint16_t)
  */
-void parseData(uint8_t* data, uint16_t len)
+int parseData(uint8_t* data, uint16_t len)
 {
+    printf("[DEBUG] parseData called\r\n");
+
     char* token;
     char* rest = (char*)data;
     BusInfo busInfo;
+    int processedLength = 0;
 
+    // strtok_r을 사용하여 데이터 라인별로 파싱
     while ((token = strtok_r(rest, "\n", &rest)))
     {
-        sscanf(token, "%[^,],%hhu,%[^,],%[^,],%hhu",
-               busInfo.routeName,
-               &busInfo.predictTimeSec1,
-               busInfo.routeId,
-               busInfo.vehId1,
-               &busInfo.remainSeatCnt1);
+        printf("[DEBUG] New token. token_ptr: %p Parsing data: <%s>\r\n", (void*)&token, token);
 
-        // ?��?�� 버스 ?���? ???��
-        osMessageQueuePut(busInfoQueueHandle, &busInfo, 0, 0);
-    }
-}
+        // 토큰이 올바르게 파싱되는지 확인하고, 필요시 오류 처리
+        if (sscanf(token, "%31[^,],%u,%31[^,],%31[^,],%u",
+                   busInfo.routeName,
+                   &busInfo.predictTimeSec1,
+                   busInfo.routeId,
+                   busInfo.vehId1,
+                   &busInfo.remainSeatCnt1) == 5)
+        {
+            // 데이터가 올바르게 파싱되었을 때만 큐에 추가
+            // osMessageQueuePut(busInfoQueueHandle, &busInfo, 0, 0);
+            printf("[DEBUG] New queue added: <Route Name: %s, Predict Time: %d, Route ID: %s, Vehicle ID: %s, Remain Seat: %d>\r\n"
+                   "[DEBUG] Current queue count: %ld\r\n",
+                   busInfo.routeName, busInfo.predictTimeSec1, busInfo.routeId, busInfo.vehId1, busInfo.remainSeatCnt1,
+                   osMessageQueueGetCount(busInfoQueueHandle));
+        }
+        else
+        {
+            printf("[ERROR] Failed to parse token: <%s>\r\n", token);
+        }
 
-void HAL_UART_IDLECallback(UART_HandleTypeDef *huart)
-{
-    if (huart->Instance == USART1)
-    {
-        // IDLE 라인 인터럽트 발생 시 DMA를 중지하고 수신 완료 처리
-        HAL_UART_DMAStop(huart);
-        parseData(rxBuffer, RX_BUFFER_SIZE);
-        HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_BUFFER_SIZE);
+        // 처리된 길이를 업데이트
+        processedLength += strlen(token) + 1; // +1 for the '\n' delimiter
     }
+
+    return processedLength;
 }
 
 /* USER CODE END 0 */
@@ -251,6 +302,7 @@ int main(void)
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
   busInfoQueueHandle = osMessageQueueNew(30, sizeof(BusInfo), &busInfoQueue_attributes);
+  xQueue = osMessageQueueNew(30, sizeof(UART_DataPacket), NULL);
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
@@ -265,6 +317,7 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
+  osThreadNew(ParseTask, NULL, &attr);
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_EVENTS */
@@ -683,8 +736,12 @@ static void MX_USART1_UART_Init(void)
   }
   /* USER CODE BEGIN USART1_Init 2 */
 
-  HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_BUFFER_SIZE);
-  __HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE);
+    // RTO 타임아웃 설정 (단위: UART 클록 주기)
+    HAL_UART_EnableReceiverTimeout(&huart1);
+    __HAL_UART_ENABLE_IT(&huart1, UART_IT_RTO);
+    huart1.Instance->RTOR = 100000; // RTO 타임아웃 값 설정 (100000 UART 클록 주기)
+
+    HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_BUFFER_SIZE);
 
   /* USER CODE END USART1_Init 2 */
 
@@ -839,7 +896,18 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+int __io_putchar(int ch)
+{
+    HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
+    return ch;
+}
 
+int __io_getchar(void)
+{
+    uint8_t ch;
+    HAL_UART_Receive(&huart3, &ch, 1, HAL_MAX_DELAY);
+    return ch;
+}
 /* USER CODE END 4 */
 
 /* USER CODE BEGIN Header_StartDefaultTask */
@@ -975,7 +1043,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 {
   /* USER CODE BEGIN 6 */
   /* User can add his own implementation to report the file name and line number,
-     tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+     tex: printf("Wrong parameters value: file %s on line %d\r\r\n", file, line) */
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */

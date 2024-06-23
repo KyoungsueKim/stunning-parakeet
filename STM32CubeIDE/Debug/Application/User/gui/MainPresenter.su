@@ -1,7 +1,7 @@
 ../../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:29:13:MainPresenter::~MainPresenter()	0	static
 C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/main_screen/MainPresenter.cpp:24:6:virtual void MainPresenter::activate()	0	static
 ../../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:29:13:virtual MainPresenter::~MainPresenter()	8	static
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/main_screen/MainPresenter.cpp:49:6:virtual void MainPresenter::fetchBusInfo()	32	static
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/main_screen/MainPresenter.cpp:49:6:virtual void MainPresenter::fetchBusInfo()	112	static
 ../../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:29:13:virtual void* MainPresenter::_ZThn4_N13MainPresenterD1Ev()	0	static
 C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/main_screen/MainPresenter.cpp:18:1:MainPresenter::MainPresenter(MainView&)	0	static
 C:/TouchGFXProjects/stunning-parakeet/TouchGFX/gui/src/main_screen/MainPresenter.cpp:34:6:void MainPresenter::sendCallBusRequest(const CustomListElement&)	72	static

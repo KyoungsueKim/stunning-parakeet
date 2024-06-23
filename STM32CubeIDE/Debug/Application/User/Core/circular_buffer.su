@@ -1,0 +1,4 @@
+../Application/User/Core/circular_buffer.c:8:6:CircularBuffer_Init	0	static
+../Application/User/Core/circular_buffer.c:13:5:CircularBuffer_isEmpty	8	static
+../Application/User/Core/circular_buffer.c:18:6:CircularBuffer_Put	16	static
+../Application/User/Core/circular_buffer.c:28:5:CircularBuffer_Get	16	static

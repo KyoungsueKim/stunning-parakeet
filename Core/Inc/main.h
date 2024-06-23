@@ -38,11 +38,11 @@ extern "C" {
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
 typedef struct {
-    char* routeName;
-    uint8_t predictTimeSec1;
-    char* routeId;
-    char* vehId1;
-    uint8_t remainSeatCnt1;
+    char routeName[32];
+    int predictTimeSec1;
+    char routeId[32];
+    char vehId1[32];
+    int remainSeatCnt1;
 } BusInfo;
 /* USER CODE END ET */
 
