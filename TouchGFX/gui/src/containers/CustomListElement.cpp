@@ -6,6 +6,15 @@ CustomListElement::CustomListElement() : viewCallback(0)
     
 }
 
+CustomListElement::CustomListElement(const Bitmap &iconBMP, Unicode::UnicodeChar* busLineText, Unicode::UnicodeChar* busArrivingText) : viewCallback(0)
+{
+    setupListElement(iconBMP, busLineText, busArrivingText);
+}
+
+CustomListElement::CustomListElement(const Bitmap &iconBMP, const char* busLineText, const char* busArrivingText) : viewCallback(0) {
+    setupListElement(iconBMP, busLineText, busArrivingText);
+}
+
 void CustomListElement::setupListElement(const Bitmap &iconBMP, Unicode::UnicodeChar* busLineText, Unicode::UnicodeChar* busArrivingText)
 {
     busCharacterScaleableImage.setBitmap(iconBMP);

@@ -51,6 +51,10 @@ void MainPresenter::fetchBusInfo()
     BusInfo busInfo;
     if (osMessageQueueGet(busInfoQueueHandle, &busInfo, NULL, 0) == osOK)
     {
-        view.setBusInfo(busInfo);
+        view.addBusInfo(busInfo);
+        if (osMessageQueueGetCount(busInfoQueueHandle) <= 0)
+        {
+            view.updateMainView();
+        }
     }
 }

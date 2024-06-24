@@ -11,6 +11,8 @@ class CustomListElement : public CustomListElementBase
 {
 public:
     CustomListElement();
+    CustomListElement(const Bitmap &iconBMP, Unicode::UnicodeChar* busLineText, Unicode::UnicodeChar* busArrivingText);
+    CustomListElement(const Bitmap &iconBMP, const char* busLineText, const char* busArrivingText);
     virtual ~CustomListElement() {}
 
     /**
@@ -36,7 +38,7 @@ protected:
     GenericCallback< CustomListElement& >* viewCallback;
 
 private:
-    Unicode::UnicodeChar busLineNumberTextAreaBuffer[32];
+
 };
 
 #endif // CUSTOMLISTELEMENT_HPP

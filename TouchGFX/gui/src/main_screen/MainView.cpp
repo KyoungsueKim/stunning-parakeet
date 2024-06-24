@@ -12,34 +12,30 @@ extern osMessageQueueId_t busInfoQueueHandle;
 #endif
 
 MainView::MainView()
-    : listElementClickedCallback(this, &MainView::listElementClicked)
+        : listElementClickedCallback(this, &MainView::listElementClicked)
 {
-
 }
 
 void MainView::setupScreen()
 {
-    list.setHeight(0); //Compensates for the list height that is set to 200 by the designer
-    // 버스 정보 (아이콘, 노선 정보, 도착 정보)
+    list.setHeight(0); // Compensates for the list height that is set to 200 by the designer
+    // 초기 설정은 필요하지 않음.
+
     listElements[0].setupListElement(Bitmap(BITMAP_B_ID), "720-1", "5");
-    
-    for (auto & listElement : listElements)
-    {
-        listElement.setAction(listElementClickedCallback);
-        list.add(listElement);
-    }
+    listElements[0].setAction(listElementClickedCallback);
+    list.add(listElements[0]);
+
+    currentElementIndex++;
 }
 
 void MainView::tearDownScreen()
 {
-    
 }
 
 void MainView::listElementClicked(CustomListElement& element)
 {
     // The button of the list element has been pressed
     presenter->sendCallBusRequest(element);
-    scrollCnt.invalidate();
 }
 
 void MainView::updateBusInfo()
@@ -47,20 +43,47 @@ void MainView::updateBusInfo()
     presenter->fetchBusInfo();
 }
 
-void MainView::setBusInfo(const BusInfo& busInfo)
+void MainView::updateMainView()
+{
+    printf("[DEBUG] updateMainView() called\n");
+    list.removeAll();
+    for(int i = 0; i < currentElementIndex; i++)
+    {
+        list.add(listElements[i]);
+    }
+    scrollCnt.invalidate();
+    currentElementIndex = 0;
+}
+
+void MainView::addBusInfo(const BusInfo& busInfo)
 {
 #ifdef SIMULATOR
-    touchgfx_printf("[DEBUG] setBusInfo called\n");
+    touchgfx_printf("[DEBUG] addBusInfo called\n");
 #else
-    HAL_UART_Transmit(&huart1, (uint8_t *)"[DEBUG] setBusInfo called\n", 30, HAL_MAX_DELAY);
+    printf("[DEBUG] addBusInfo() called. BusInfo: <routeName: %s, predictTimeSec1: %d, routeId: %s, vehId1: %s, remainSeatCnt1: %d>\r\n", busInfo.routeName, busInfo.predictTimeSec1, busInfo.routeId, busInfo.vehId1, busInfo.remainSeatCnt1);
 #endif
 
-    list.removeAll();
+    if (currentElementIndex < maximumListElements)
+    {
+        // 예상 도착 시간을 문자열로 변환
+        char predictTimeStr[32];
+        snprintf(predictTimeStr, sizeof(predictTimeStr), "%d", busInfo.predictTimeSec1);
 
-    // 예측 시간을 문자열로 변환
-    char predictTimeBuffer[32];
-    snprintf(predictTimeBuffer, sizeof(predictTimeBuffer) / sizeof(predictTimeBuffer[0]), "%d", busInfo.predictTimeSec1);
+        // CustomListElement 설정
+        listElements[currentElementIndex].setupListElement(Bitmap(BITMAP_B_ID), busInfo.routeName, predictTimeStr);
+        listElements[currentElementIndex].setAction(listElementClickedCallback);
+//        list.add(listElements[currentElementIndex]);
 
-    // listElements 배열을 사용하여 데이터를 설정
-    listElements[0].setupListElement(Bitmap(BITMAP_B_ID), busInfo.routeName, predictTimeBuffer);
+        currentElementIndex++;
+        printf("[Debug] currentElementIndex: %d\r\n", currentElementIndex);
+    }
+    else
+    {
+#ifdef SIMULATOR
+        touchgfx_printf("[ERROR] Maximum list elements reached\n");
+#else
+        printf("[ERROR] Maximum list elements reached\r\n");
+#endif
+    }
+//    list.invalidate(); // 화면 갱신
 }
