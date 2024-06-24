@@ -5,19 +5,19 @@
   </Languages>
   <Texts>
     <TextGroup Id="Group1">
-      <Text Id="bus_arriving" Alignment="Left" TypographyId="hangul">
-        <Translation Language="GB">&lt;Value&gt;</Translation>
+      <Text Id="bus_arriving" Alignment="Left" TypographyId="list_element_text">
+        <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="bus_line_num" Alignment="Left" TypographyId="list_element_text">
-        <Translation Language="GB">&lt;Value&gt;</Translation>
+        <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
       <Text Id="bus_AR_00" Alignment="Left" TypographyId="hangul">
-        <Translation Language="GB">13m 12s</Translation>
+        <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="bus_LN_00" Alignment="Left" TypographyId="list_element_text">
-        <Translation Language="GB">720-1</Translation>
+        <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="requestBell" Alignment="Center" TypographyId="hangul">
         <Translation Language="GB">승차</Translation>
@@ -25,7 +25,7 @@
     </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="list_element_text" Font="Asap-Regular.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="hangul" Font="NanumGothicLight.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="list_element_text" Font="Asap-Regular.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="." WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="hangul" Font="NanumGothicLight.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="." WildcardCharacterRanges="0x20-0x7E" />
   </Typographies>
 </TextDatabase>

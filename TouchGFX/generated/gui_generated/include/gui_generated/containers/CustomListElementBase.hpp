@@ -43,9 +43,9 @@ protected:
     /*
      * Wildcard Buffers
      */
-    static const uint16_t BUSARRIVINGTEXTAREA_SIZE = 20;
+    static const uint16_t BUSARRIVINGTEXTAREA_SIZE = 256;
     touchgfx::Unicode::UnicodeChar busArrivingTextAreaBuffer[BUSARRIVINGTEXTAREA_SIZE];
-    static const uint16_t BUSLINENUMBERTEXTAREA_SIZE = 10;
+    static const uint16_t BUSLINENUMBERTEXTAREA_SIZE = 256;
     touchgfx::Unicode::UnicodeChar busLineNumberTextAreaBuffer[BUSLINENUMBERTEXTAREA_SIZE];
 
 private:

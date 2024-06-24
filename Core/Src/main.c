@@ -164,18 +164,19 @@ int parseData(uint8_t* data, uint16_t len)
         printf("[DEBUG] New token. token_ptr: %p Parsing data: <%s>\r\n", (void*)&token, token);
 
         // 토큰이 올바르게 파싱되는지 확인하고, 필요시 오류 처리
-        if (sscanf(token, "%19[^,],%u,%19[^,],%19[^,],%u",
+        if (sscanf(token, "%31[^,],%u,%31[^,],%31[^,],%u,%u",
                    busInfo.routeName,
                    &busInfo.predictTimeSec1,
                    busInfo.routeId,
                    busInfo.vehId1,
-                   &busInfo.remainSeatCnt1) == 5)
+                   &busInfo.remainSeatCnt1,
+                   &busInfo.staOrder) == 6)
         {
             // 데이터가 올바르게 파싱되었을 때만 큐에 추가
             osMessageQueuePut(busInfoQueueHandle, &busInfo, 0, 0);
-            printf("[DEBUG] New queue added: <Route Name: %s, Predict Time: %d, Route ID: %s, Vehicle ID: %s, Remain Seat: %d>\r\n"
+            printf("[DEBUG] New queue added: <Route Name: %s, Predict Time: %d, Route ID: %s, Vehicle ID: %s, Remain Seat: %d, Station Order: %d>\r\n"
                    "[DEBUG] Current queue count: %ld\r\n",
-                   busInfo.routeName, busInfo.predictTimeSec1, busInfo.routeId, busInfo.vehId1, busInfo.remainSeatCnt1,
+                   busInfo.routeName, busInfo.predictTimeSec1, busInfo.routeId, busInfo.vehId1, busInfo.remainSeatCnt1, busInfo.staOrder,
                    osMessageQueueGetCount(busInfoQueueHandle));
         }
         else

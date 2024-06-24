@@ -33,11 +33,11 @@ void MainPresenter::deactivate()
 
 void MainPresenter::sendCallBusRequest(const CustomListElement& element)
 {
-    const char* busLineNumber = element.getBusLineNumber();
+    const char* busLineNumber = element.busInfo.routeName;
 
     // "<request> (call_bus) %s\n";
-    char request[64];
-    sprintf(request, "<request> (call_bus) {%s}\n", busLineNumber);
+    char request[128];
+    sprintf(request, "<request> (call_bus) {%d, %s, %s}\n", element.busInfo.staOrder, element.busInfo.routeId, element.busInfo.vehId1);
 
 #ifdef SIMULATOR
     touchgfx_printf(request);

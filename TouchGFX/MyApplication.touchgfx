@@ -82,15 +82,14 @@
             "Name": "busArrivingTextArea",
             "X": 183,
             "Y": 13,
-            "Width": 66,
-            "Height": 19,
+            "Width": 58,
+            "Height": 16,
             "TextId": "bus_arriving",
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "bus_AR_00",
               "UseBuffer": true,
-              "BufferSize": 20
+              "BufferSize": 256
             }
           },
           {
@@ -98,7 +97,7 @@
             "Name": "busLineNumberTextArea",
             "X": 68,
             "Y": 14,
-            "Width": 41,
+            "Width": 58,
             "Height": 16,
             "TextId": "bus_line_num",
             "TextRotation": "0",
@@ -109,9 +108,8 @@
             },
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "bus_LN_00",
               "UseBuffer": true,
-              "BufferSize": 10
+              "BufferSize": 256
             }
           }
         ],

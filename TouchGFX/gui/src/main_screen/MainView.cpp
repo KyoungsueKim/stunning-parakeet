@@ -4,6 +4,7 @@
 #ifndef SIMULATOR
 #include "stm32h7xx_hal.h"
 #include "cmsis_os.h"
+#include <cstring>
 #include "main.h"
 
 extern UART_HandleTypeDef huart1;
@@ -43,24 +44,12 @@ void MainView::updateBusInfo()
     presenter->fetchBusInfo();
 }
 
-void MainView::updateMainView()
-{
-    printf("[DEBUG] updateMainView() called\n");
-    list.removeAll();
-    for(int i = 0; i < currentElementIndex; i++)
-    {
-        list.add(listElements[i]);
-    }
-    scrollCnt.invalidate();
-    currentElementIndex = 0;
-}
-
 void MainView::addBusInfo(const BusInfo& busInfo)
 {
 #ifdef SIMULATOR
     touchgfx_printf("[DEBUG] addBusInfo called\n");
 #else
-    printf("[DEBUG] addBusInfo() called. BusInfo: <routeName: %s, predictTimeSec1: %d, routeId: %s, vehId1: %s, remainSeatCnt1: %d>\r\n", busInfo.routeName, busInfo.predictTimeSec1, busInfo.routeId, busInfo.vehId1, busInfo.remainSeatCnt1);
+    printf("[DEBUG] addBusInfo() called. BusInfo: <routeName: %s, predictTimeSec1: %d, routeId: %s, vehId1: %s, remainSeatCnt1: %d, staOrder: %d>\r\n", busInfo.routeName, busInfo.predictTimeSec1, busInfo.routeId, busInfo.vehId1, busInfo.remainSeatCnt1, busInfo.staOrder);
 #endif
 
     if (currentElementIndex < maximumListElements)
@@ -70,9 +59,9 @@ void MainView::addBusInfo(const BusInfo& busInfo)
         snprintf(predictTimeStr, sizeof(predictTimeStr), "%d", busInfo.predictTimeSec1);
 
         // CustomListElement 설정
-        listElements[currentElementIndex].setupListElement(Bitmap(BITMAP_B_ID), busInfo.routeName, predictTimeStr);
+        listElements[currentElementIndex].setupListElement(Bitmap(busInfo.remainSeatCnt1 ? BITMAP_R_ID : BITMAP_G_ID), busInfo.routeName, predictTimeStr);
         listElements[currentElementIndex].setAction(listElementClickedCallback);
-//        list.add(listElements[currentElementIndex]);
+        listElements[currentElementIndex].busInfo = busInfo;
 
         currentElementIndex++;
         printf("[Debug] currentElementIndex: %d\r\n", currentElementIndex);
@@ -85,5 +74,16 @@ void MainView::addBusInfo(const BusInfo& busInfo)
         printf("[ERROR] Maximum list elements reached\r\n");
 #endif
     }
-//    list.invalidate(); // 화면 갱신
+}
+
+void MainView::updateMainView()
+{
+    printf("[DEBUG] updateMainView() called\n");
+    list.removeAll();
+    for(int i = 0; i < currentElementIndex; i++)
+    {
+        list.add(listElements[i]);
+    }
+    scrollCnt.invalidate();
+    currentElementIndex = 0;
 }

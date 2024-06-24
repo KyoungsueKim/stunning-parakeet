@@ -40,4 +40,4 @@ C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/conta
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:132:10:void touchgfx::ButtonWithLabel::updateTextPosition()	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:65:5:touchgfx::TextAreaWithOneWildcard::TextAreaWithOneWildcard()	1
-C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/containers/CustomListElementBase.cpp:9:1:CustomListElementBase::CustomListElementBase()	3
+C:/TouchGFXProjects/stunning-parakeet/TouchGFX/generated/gui_generated/src/containers/CustomListElementBase.cpp:9:1:CustomListElementBase::CustomListElementBase()	1

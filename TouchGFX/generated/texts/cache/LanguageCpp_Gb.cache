@@ -1,1 +1,1 @@
-{"remap":"yes","language":"GB","language_index":0,"indices":[["8","T_BUS_ARRIVING"],["8","T_BUS_LINE_NUM"],["0","T_BUS_AR_00"],["10","T_BUS_LN_00"],["16","T_REQUESTBELL"]]}
+{"remap":"yes","language":"GB","language_index":0,"indices":[["0","T_BUS_ARRIVING"],["0","T_BUS_LINE_NUM"],["0","T_BUS_AR_00"],["0","T_BUS_LN_00"],["2","T_REQUESTBELL"]]}

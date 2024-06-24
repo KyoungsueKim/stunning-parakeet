@@ -43,6 +43,7 @@ typedef struct {
     char routeId[32];
     char vehId1[32];
     int remainSeatCnt1;
+    int staOrder;
 } BusInfo;
 /* USER CODE END ET */
 

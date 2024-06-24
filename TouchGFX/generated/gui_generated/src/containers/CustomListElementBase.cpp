@@ -31,7 +31,7 @@ CustomListElementBase::CustomListElementBase() :
     busArrivingTextArea.setXY(183, 13);
     busArrivingTextArea.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     busArrivingTextArea.setLinespacing(0);
-    Unicode::snprintf(busArrivingTextAreaBuffer, BUSARRIVINGTEXTAREA_SIZE, "%s", touchgfx::TypedText(T_BUS_AR_00).getText());
+    busArrivingTextAreaBuffer[0] = 0;
     busArrivingTextArea.setWildcard(busArrivingTextAreaBuffer);
     busArrivingTextArea.resizeToCurrentText();
     busArrivingTextArea.setTypedText(touchgfx::TypedText(T_BUS_ARRIVING));
@@ -40,7 +40,7 @@ CustomListElementBase::CustomListElementBase() :
     busLineNumberTextArea.setXY(68, 14);
     busLineNumberTextArea.setColor(touchgfx::Color::getColorFromRGB(91, 91, 91));
     busLineNumberTextArea.setLinespacing(0);
-    Unicode::snprintf(busLineNumberTextAreaBuffer, BUSLINENUMBERTEXTAREA_SIZE, "%s", touchgfx::TypedText(T_BUS_LN_00).getText());
+    busLineNumberTextAreaBuffer[0] = 0;
     busLineNumberTextArea.setWildcard(busLineNumberTextAreaBuffer);
     busLineNumberTextArea.resizeToCurrentText();
     busLineNumberTextArea.setTypedText(touchgfx::TypedText(T_BUS_LINE_NUM));

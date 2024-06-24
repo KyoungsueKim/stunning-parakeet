@@ -10,9 +10,9 @@ KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE;
 // Remap all strings
 TEXT_LOCATION_FLASH_PRAGMA
 KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
-    8,  // T_BUS_ARRIVING: "<>"
-    8,  // T_BUS_LINE_NUM: "<>"
-    0,  // T_BUS_AR_00: "13m 12s"
-    10, // T_BUS_LN_00: "720-1"
-    16  // T_REQUESTBELL: "??"
+    0, // T_BUS_ARRIVING: "<>"
+    0, // T_BUS_LINE_NUM: "<>"
+    0, // T_BUS_AR_00: "<>"
+    0, // T_BUS_LN_00: "<>"
+    2  // T_REQUESTBELL: "??"
 };

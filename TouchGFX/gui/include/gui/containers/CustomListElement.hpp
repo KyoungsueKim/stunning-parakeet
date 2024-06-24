@@ -6,6 +6,7 @@
 #include <touchgfx/widgets/Button.hpp>
 #include <touchgfx/Bitmap.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
+#include "main.h"
 
 class CustomListElement : public CustomListElementBase
 {
@@ -26,9 +27,9 @@ public:
      */
     void setAction(GenericCallback< CustomListElement& >& callback);
 
-    const char* getBusLineNumber() const;
-
     virtual void callBusAction();
+
+    BusInfo busInfo;
 
 protected:
 
